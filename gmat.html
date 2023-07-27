@@ -986,7 +986,6 @@
                 else {
                     document.querySelectorAll(".question")[0].classList.remove("fadeInRight")
                 }
-                console.log("kathir")
             })
         })
         observer.observe(document.querySelector(".scroll-container"))
@@ -1056,35 +1055,38 @@
             }
             );
         }
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const iframe = document.querySelector("iframe");
-            const playPauseButton = document.querySelector("#playvideo");
-            console.log("poo")
-            playPauseButton.addEventListener("click", function () {
-                console.log("ifclicks");
-                console.log(
-                    iframe.src.includes("?autoplay=1"),
-                    iframe.src,
-                    "gettheiframe"
-                );
-                if (iframe.src.includes("?autoplay=1")) {
-                    // Video is playing, pause it
-                    // iframe.contentWindow.postMessage(
-                    //     '{"event":"command","func":"pauseVideo","args":""}',
-                    //     "*"
-                    // );
-                    iframe.src = "https://www.youtube.com/embed/ahhCnTpF2cI";
-                    // playPauseButton.classList.remove("playing");
-                } else {
-                    console.log("elsestate");
-                    // Video is paused, play it
-                    iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-                    iframe.src += "?autoplay=1";
-                    // playPauseButton.classList.add("playing");
-                }
-            });
+        const playPauseButton = document.querySelector("#playvideo");
+        const iframe = document.querySelector("iframe");
+        let loop = true;
+        playPauseButton.addEventListener("click", function () {
+            if (iframe.src.includes("?autoplay=1")) {
+                // Video is playing, pause it
+                // iframe.contentWindow.postMessage(
+                //     '{"event":"command","func":"pauseVideo","args":""}',
+                //     "*"
+                // );
+                iframe.src = "https://www.youtube.com/embed/ahhCnTpF2cI";
+                loop = true
+            } else {
+                loop = false
+                // iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                iframe.src = "https://www.youtube.com/embed/ahhCnTpF2cI?autoplay=1";
+            }
         });
+        console.log(loop)
+        if (loop) {
+            const observer = new IntersectionObserver(entries => {
+                if (loop)
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            iframe.src = "https://www.youtube.com/embed/ahhCnTpF2cI?autoplay=1";
+                            console.log(iframe)
+                            loop = false
+                        }
+                    })
+            })
+            observer.observe(document.querySelector(".gmat-sec-3"))
+        }
 
         // get the current Time
 
@@ -1115,11 +1117,12 @@
             if (currenthr >= 12) {
                 if (x.matches) {
                     // If media query matches
-                    url.href = "tel6380731062";
+                    url.href = "tel:+916366004441";
                 } else {
                     document
                         .querySelector("#contbtn")
                         .addEventListener("click", function () {
+                            console.log(url)
                             console.log("ifclicks");
                             if (
                                 document.getElementById("contbtn").innerText === "6380731062"
@@ -1154,8 +1157,8 @@
         var img = document.getElementById("img");
 
         var slides = [
-            "Assets/sec-1-img-2.png",
-            "Assets/sec-1-img.png",
+            "Assets/new-gmat/sec-1-img-2.png",
+            "Assets/new-gmat/sec-1-img.png",
         ];
 
         var Start = 0;
