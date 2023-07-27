@@ -81,7 +81,7 @@ body,
 }
 
 .sec-2-inner-split h2 {
-    font-size: 2vw;
+    font-size: 1.9vw;
 }
 
 .score-number {
@@ -185,7 +185,7 @@ body,
 .gmat-sec-6-card-1,
 .gmat-sec-6-card-2 {
     background-color: #fff;
-    padding: 3vw 1vw 2vw;
+    padding: 2vw 1vw 2vw;
     width: max-content;
     text-align: center;
     border-radius: 18.2px;
@@ -202,7 +202,7 @@ body,
     font-weight: 600;
     font-size: 1.2vw;
     margin: 0px;
-    margin-top: 2vw;
+    margin-top: 1.5vw;
     line-height: 2.5vw;
     transition: 0.5s ease color;
 }
@@ -280,7 +280,7 @@ body,
 
 /* section-4 */
 .section-4-gre {
-    padding-top: 5vw;
+    padding-top: 8vw;
 }
 
 .section-4-width {
@@ -372,7 +372,7 @@ body,
     border-radius: 14px;
     background: #fff;
     box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.13);
-    width: 80%;
+    width: 70%;
     margin: auto;
     margin-top: 3vw;
     margin-bottom: 5vw;
@@ -389,6 +389,9 @@ body,
 
 #carousel-stop2 {
     width: 65%;
+    background-image: url("./Assets/google-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .google-col-1,
@@ -453,7 +456,7 @@ body,
 /* Section - 7 */
 
 .gmat-sec-7-cols {
-    background: url("Assets/world-map.png");
+    background: url("./Assets/world-map.png");
     padding-bottom: 4rem;
     background-position: center;
     background-size: contain;
@@ -465,14 +468,15 @@ body,
 }
 
 .gmat-profile-sec-7 .gmat-sec-7-container .gmat-sec-7-cols {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     align-items: center;
+    justify-items: center;
+    grid-row-gap: 2vw;
 }
 
 .gmat-profile-sec-7 .gmat-sec-7-container .gmat-sec-7-cols img {
-    width: 16vw;
+    width: 10vw;
 }
 
 /* sectionn-8 */
@@ -674,11 +678,33 @@ img.question {
     height: 40px;
     position: absolute;
     right: 44%;
-    top: -10px;
+}
+
+img.first {
+    width: auto !important;
+    height: 7vw;
+    position: absolute;
+    left: -55px;
+}
+
+img.second {
+    width: auto !important;
+    height: 7vw;
+    position: absolute;
+    right: -55px;
+    top: 10px;
 }
 
 .fadeInRight {
-    animation: fadeInRight 2s both;
+    animation: fadeInRight 1.5s both;
+}
+
+.fadeInLeft {
+    animation: fadeInLeft 1.5s both;
+}
+
+.fadeInTop {
+    animation: fadeInTop 1.5s both;
 }
 
 .scroll-container {
@@ -698,7 +724,41 @@ img.question {
     }
 }
 
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 @media screen and (max-width: 767px) {
+    .scroll-container img.first {
+        height: 80px !important;
+        left: -25px;
+    }
+
+    .scroll-container img.second {
+        height: 72px !important;
+        right: -19px;
+    }
+
     .head-h1 {
         font-size: 5.3vw !important;
         text-align: center !important;
@@ -908,14 +968,21 @@ img.question {
     /* section-7 */
 
     .gmat-profile-sec-7 .gmat-sec-7-container .gmat-sec-7-cols {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        grid-template-columns: auto auto;
+        grid-row-gap: 10vw;
+        grid-column-gap: 6vw
+    }
+
+    .rotman {
+        width: 42vw !important;
+    }
+
+    .london {
+        width: 20vw !important;
     }
 
     .gmat-profile-sec-7 .gmat-sec-7-container .gmat-sec-7-cols img {
-        width: 42vw;
+        width: 30vw;
     }
 
     /* section-8 */
@@ -1028,7 +1095,7 @@ img.question {
 
     /* section-4 */
     .section-4-gre {
-        padding-top: 2rem;
+        padding-top: 4rem;
     }
 
     .section-4-width .section-gre-3-part .section-3-part-1 {
@@ -1347,14 +1414,14 @@ img.question {
 
 .gmat-sec-1 .sec-1-cols .img-col img {
     width: 40vw;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 /* Marquee */
 /* Marquee Section */
 .marquee-sec {
     background: #c197fbad;
-    padding: 0.5rem 0;
+    padding: 1vw 0;
 }
 
 .marquee-sec .marquee-sec-cols {
@@ -1364,11 +1431,11 @@ img.question {
 }
 
 .marquee-sec .marquee-sec-cols .head-col {
-    width: 20%;
+    width: 25%;
 }
 
 .marquee-sec .marquee-sec-cols .content-col {
-    width: 80%;
+    width: 75%;
 }
 
 .marquee-sec .marquee-sec-cols .content-col marquee {
@@ -1380,14 +1447,18 @@ img.question {
     margin-right: 2.5rem;
 }
 
+.scroll-element .slide {
+    display: flex;
+}
+
 .marquee-sec .marquee-sec-cols .head-col h5 {
     color: #561aa9;
-    font-size: 1.4rem;
+    font-size: 1.5vw;
     text-align: right;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.4rem;
     text-transform: capitalize;
-    padding-right: 2rem;
+    padding-right: 2vw;
 }
 
 .scroll-parent {
@@ -1504,7 +1575,7 @@ img.question {
 
 /* Section - 4 */
 .gmat-sec-4 {
-    background-image: url("../Assets/gre/new-gre/form-sec.svg");
+    background-image: url("./Assets/form-sec.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1530,7 +1601,9 @@ img.question {
 }
 
 .gmat-sec-4 .gmat-sec-4-cont-form {
-    padding: 2rem;
+    width: 65vw;
+    margin: auto;
+    padding: 0rem 0rem 2rem;
     border-radius: 50px;
     background: #682cba;
     box-shadow: 0px 8px 22px 0px rgba(0, 0, 0, 0.2);
@@ -1556,7 +1629,7 @@ img.question {
     border: 0.515px solid #414141;
     background: #fff5fa;
     padding: 0.4rem 0.7rem;
-    width: 100%;
+    width: 93%;
     height: 40px;
 }
 
@@ -1607,7 +1680,7 @@ img.question {
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 1rem;
-    padding: 1.8rem 2.5rem;
+    padding: 1.5rem 2.5rem;
     cursor: pointer;
     border: none;
     border-radius: 18px;
@@ -1653,9 +1726,9 @@ img.question {
     }
 
     /* marquee sec */
-    .marquee-sec .marquee-sec-cols .head-col h5 {
-        font-size: 1rem;
-    }
+    /* .marquee-sec .marquee-sec-cols .head-col h5 {
+    font-size: 1rem;
+  } */
 
     .marquee-sec .marquee-sec-cols .content-col img {
         margin-right: 0;
@@ -1872,10 +1945,12 @@ img.question {
     .marquee-sec .marquee-sec-cols .head-col {
         width: 100%;
         padding-bottom: 1rem;
+        padding-top: 0.5rem;
     }
 
     .marquee-sec .marquee-sec-cols .head-col h5 {
         text-align: center;
+        font-size: 5vw;
     }
 
     .marquee-sec .marquee-sec-cols .content-col {
