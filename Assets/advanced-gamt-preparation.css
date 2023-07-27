@@ -1,0 +1,1835 @@
+.cl-gamt-sec-1-cols .form-col form input,
+.gmat-section-1-col-2pad form input {
+  background: linear-gradient(
+    99.96deg,
+    rgba(176, 176, 176, 0.13) 90.05%,
+    rgba(216, 216, 216, 0.0026) 110.22%
+  );
+  color: #d3fff6;
+}
+* {
+  font-family: Poppins, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 1200px) {
+  .width-for-sec {
+    width: 1220px;
+    margin: auto;
+  }
+  .width-for-sec-3 {
+    width: 1300px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .gmat-prep-sec-1-part-width {
+    width: 95% !important;
+  }
+}
+.advace-gmat-sec-1 {
+  padding: 2rem 4rem;
+  background-color: #096351;
+}
+.advace-gmat-sec-1-head-img {
+  width: 35%;
+  padding-left: 1rem;
+}
+.advance-gmat-sec-1-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.advance-gmat-sec-1-cols .content-col {
+  width: 66%;
+}
+.advance-gmat-sec-1-cols .cl-gamt-sec-1-cols {
+  width: 32%;
+}
+.advance-gmat-sec-1-cols .content-col .head-and-img {
+  display: flex;
+}
+.advance-gmat-sec-1-cols .content-col .head-and-img .head-img {
+  align-self: center;
+  margin-top: 1rem;
+}
+.advance-gmat-sec-1-cols .content-col .head-and-img .head-img img {
+  width: 10rem;
+}
+.advance-gmat-sec-1-cols .content-col h3,
+.advance-gmat-sec-1-cols .content-col span {
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 3.9rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.advance-gmat-sec-1-cols .content-col span,
+.sec-3-cols span {
+  color: #fcb28e;
+}
+.advance-gmat-sec-1-cols .content-col h5 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  color: #d3d5d7;
+  margin-top: -1rem;
+}
+.advance-gmat-sec-1-cols .content-col .bullet-contents {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-img-cols {
+  border-radius: 12px;
+  background: linear-gradient(
+    99.96deg,
+    rgba(176, 176, 176, 0.13) 5.05%,
+    rgba(216, 216, 216, 0.0026) 108.22%
+  );
+  border: 2px solid #306258;
+  width: 45%;
+}
+.advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-col {
+  display: -webkit-box;
+  padding: 1rem;
+  background: #317e6e;
+  height: 1.4rem;
+  border-radius: 12px 12px 0 0;
+}
+.bullet-col-flex,
+.gmat-prep-part-1-features,
+.gmat-prep-pro-sec-4-cols .univercity-col,
+.gmat-section-2-last-image {
+  display: flex;
+  align-items: center;
+}
+.advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .img-col,
+.cl-gmat-form-submit-flex {
+  justify-content: center;
+  display: flex;
+}
+.advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-col img,
+.advance-gmat-sec-5 .tab-cols .tab-col img,
+.gmat-prep-part-1-features marquee {
+  width: 80%;
+}
+.advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-col h6 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 0;
+}
+.advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-img-cols p {
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+}
+.cl-gamt-sec-1-cols .form-col .form-col-form {
+  background: #22574c;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+}
+.cl-gamt-sec-1-cols .form-col form input {
+  margin-top: 1rem;
+  padding: 1.3rem 1rem;
+  border: 0.7px solid rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  width: -webkit-fill-available;
+}
+.cl-gamt-sec-1-cols .form-col form input::placeholder {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  text-transform: capitalize;
+  color: #d3fff6;
+}
+.cl-gmat-form-submit-flex {
+  margin-top: 1rem;
+}
+.cl-gmat-form-submit-flex button {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  background: #cb8461;
+  border-radius: 42.3145px;
+  padding: 1.3rem 0;
+  width: -webkit-fill-available;
+  border: none;
+  cursor: pointer;
+}
+.gmat-prep-sec-1-part {
+  background-color: #f4f6f8;
+  padding: 8px 0;
+}
+.gmat-prep-sec-1-part-width {
+  width: 1282px;
+  background-color: #f4f6f8;
+  margin: auto;
+}
+.gmat-prep-part-1-features h1 {
+  color: #102b52;
+  margin: 0;
+  font-size: 1.15rem;
+  padding: 0.7em 1em 0.7em 0;
+}
+marquee img {
+  padding: 0 2.5em;
+}
+.advance-gmat-sec-2 {
+  padding: 2rem 4rem;
+  margin: 2rem 0;
+}
+.advance-gmat-sec-2 .sec-2-headings h3 {
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 1.2rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #292b2a;
+}
+.advance-gmat-sec-2 .sec-2-headings p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+.advance-gmat-sec-2 .santosh-krithika-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col img {
+  width: 80%;
+  z-index: 11;
+}
+.advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .cont-col {
+  background: #edfbf8;
+  backdrop-filter: blur(6.4175px);
+  border-radius: 24.576px;
+  border: 1.93px solid #76cab8;
+  padding: 2rem;
+  margin-top: -1.5rem;
+}
+.advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .cont-col h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #20554a;
+}
+.advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .cont-col p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #686868;
+}
+.advance-gmat-sec-3 {
+  padding: 1.5rem;
+}
+.advance-gmat-sec-3 .sec-3-cols,
+.guarantee-sec .guarantee-sec-cols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col {
+  margin: 0 2rem;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col:first-child {
+  background: #40a48f;
+  box-shadow: 0 25px 46px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col:nth-child(2) {
+  background: #317e6e;
+  box-shadow: 0 25px 46px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col:nth-child(3) {
+  background: #245d51;
+  box-shadow: 0 25px 46px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col:first-child .bullet-icons-letters {
+  background: #dffef7;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col:nth-child(2) .bullet-icons-letters {
+  background: #bff5e9;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col:nth-child(3) .bullet-icons-letters {
+  background: #acefe0;
+}
+.advance-gmat-sec-3
+  .sec-3-cols
+  .cont-col:first-child
+  .bullet-icons-letters
+  li
+  i {
+  color: #76cab8;
+}
+.advance-gmat-sec-3
+  .sec-3-cols
+  .cont-col:nth-child(2)
+  .bullet-icons-letters
+  li
+  i {
+  color: #40a48f;
+}
+.advance-gmat-sec-3
+  .sec-3-cols
+  .cont-col:nth-child(3)
+  .bullet-icons-letters
+  li
+  i {
+  color: #245d51;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col .head-col h3 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 0 2rem;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col .bullet-icons-letters ul {
+  list-style: none;
+  padding: 1rem;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col .bullet-icons-letters ul li {
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col .bullet-icons-letters ul li i {
+  font-size: 1.5rem;
+  margin-right: 0.6rem;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col .amount-col {
+  background-image: radial-gradient(circle, #d0a243, #f5ce82, #f7d68d);
+  padding: 1rem 2rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col .amount-col p {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+  color: #245d51;
+  margin: 0;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col .divider {
+  border-bottom: 1px solid #fff;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col .btn-col {
+  padding: 1.4rem 2rem;
+  text-align: center;
+}
+.advance-gmat-sec-3 .sec-3-cols .cont-col .btn-col button {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #245d51;
+  padding: 1rem 2.3rem;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+}
+.advance-gmat-sec-5 {
+  padding: 2rem 3rem;
+}
+.advance-gmat-sec-5 .head-col h3 {
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #292b2a;
+}
+.advance-gmat-sec-5 .tab-cols {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+.advance-gmat-sec-5 .tab-cols .tab-col {
+  box-shadow: 0 6.26664px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0 3.35045px 17.869px rgba(0, 0, 0, 0.0417275),
+    0 1.87823px 10.0172px rgba(0, 0, 0, 0.035),
+    0 0.997515px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0 0.415088px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 22px;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  padding-top: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.advance-gmat-sec-5 .tab-cols .tab-col p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #252525;
+}
+.advance-gmat-sec-5 .tab-cols .tab-col:nth-child(3) p:nth-child(2){
+    line-height: 1rem;
+  }
+.advance-gmat-sec-5 .tab-cols .tab-col h5 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  text-align: center;
+  color: #245d51;
+  background: #e0fff8;
+  border-radius: 30px;
+  padding: 1rem;
+}
+.active-tab {
+  background: #f1ecff;
+  border: 2.5px solid #000;
+}
+.advance-gmat-sec-5 .tab-contents-cols {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col:first-child {
+  padding-top: 0;
+  text-align: left;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col {
+  text-align: center;
+  width: 25%;
+  padding: 1rem 2rem;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col .img-cont-col img {
+  width: 20% !important;
+  margin-bottom: 0 !important;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col img {
+  width: 11%;
+  margin-bottom: 0.5rem;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col:nth-child(2) {
+  background: #edfffb;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col:nth-child(3),
+.tab-cont-col:nth-child(4),
+.tab-cont-col:nth-child(5) {
+  background: #f1ecff;
+  border: 2.5px solid #000;
+  border-radius: 12px;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col:nth-child(3),
+.tab-cont-col:nth-child(4),
+.tab-cont-col:nth-child(5) h4 {
+  color: #454250;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col h3 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 0;
+  text-align: left;
+  text-transform: capitalize;
+  color: #292b2a;
+  margin-top: 7.5rem;
+  margin-bottom: 1.4em;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col .margin-top-img img {
+  margin-top: -0.6rem;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+.advance-gmat-sec-5 .tab-contents-cols .tab-cont-col h4 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 0;
+  text-transform: capitalize;
+  color: #245d51;
+}
+.advance-gmat-sec-5 .btn-col,
+.gmat-section-2nd-dot,
+.gmat-section-2nd-joshi-dot,
+.gmat-section-3rd-dot,
+.gmat-section-4th-dot,
+.gmat-section-6-head,
+.guarantee-sec .img-col {
+  text-align: center;
+}
+.advance-gmat-sec-5 .btn-col button {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 1rem 6rem;
+  background: #2d695c;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .advace-gmat-sec-1 {
+    padding: 2rem;
+  }
+  .advace-gmat-sec-1-head-img {
+    width: 40%;
+  }
+  .advance-gmat-sec-1-cols .content-col {
+    width: 70%;
+  }
+  .advance-gmat-sec-1-cols .content-col h3,
+  .advance-gmat-sec-1-cols .content-col span {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .advance-gmat-sec-1-cols .content-col .head-and-img .head-img img {
+    width: 6rem;
+  }
+  .advance-gmat-sec-1-cols .content-col h5 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-col {
+    display: -webkit-box;
+    padding: 0.4rem;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-col img {
+    width: 50%;
+    display: flex;
+    margin: auto;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-col h6 {
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-img-cols p {
+    font-size: 0.5rem;
+    line-height: 1rem;
+  }
+  .advance-gmat-sec-1-cols .cl-gamt-sec-1-cols {
+    width: 33%;
+  }
+  .cl-gamt-sec-1-cols .form-col form input {
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+  .cl-gmat-form-submit-flex button {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .cl-gamt-sec-1-cols .form-col form input::placeholder {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  .advance-gmat-sec-2 {
+    padding: 2rem 1rem;
+    margin: 0;
+  }
+  .advance-gmat-sec-2 .sec-2-headings h3 {
+    font-size: 1.6rem;
+    line-height: 1.2rem;
+  }
+  .advance-gmat-sec-2 .sec-2-headings p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .advance-gmat-sec-2 .santosh-krithika-cols {
+    margin-top: 0;
+  }
+  .advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .cont-col {
+    padding: 1rem;
+    margin-top: -1.5rem !important;
+    margin: 0 1rem;
+  }
+  .advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .cont-col h3 {
+    font-size: 1.3rem;
+    line-height: 1rem;
+  }
+  .advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .cont-col p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .advance-gmat-sec-3 .sec-3-cols {
+    display: block;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col {
+    margin: 0 6rem 2rem;
+    padding: 1rem 0;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col .head-col h3 {
+    font-size: 1.8rem;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col .bullet-icons-letters ul li,
+  .advance-gmat-sec-3 .sec-3-cols .cont-col p {
+    font-size: 1.2rem;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col .bullet-icons-letters {
+    display: flex;
+    justify-content: center;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col .btn-col button {
+    font-size: 1.5rem;
+    padding: 1.5rem 3.3rem;
+  }
+  .advance-gmat-sec-5 {
+    padding: 0 1rem;
+  }
+  .advance-gmat-sec-5 .tab-cols {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    width: 100%;
+  }
+  .advance-gmat-sec-5 .tab-cols .tab-col {
+    padding: 1rem 2rem;
+    width: 37%;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+  }
+  .advance-gmat-sec-5 .head-col h3 {
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols {
+    padding: 0;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col {
+    width: 26%;
+    padding: 1rem;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col h3 {
+    font-size: 1.3rem;
+    line-height: 0;
+    margin-top: 6rem;
+    margin-bottom: 1.18em;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col p {
+    font-size: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col h4 {
+    font-size: 1.3rem;
+    line-height: 0;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col img {
+    margin-bottom: 0.66rem;
+  }
+  .advance-gmat-sec-5 .btn-col {
+    text-align: center;
+    padding: 2rem;
+  }
+  .advance-gmat-sec-5 .btn-col button {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    padding: 1.3rem 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .advace-gmat-sec-1,
+  .advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .cont-col,
+  .advance-gmat-sec-5 .btn-col {
+    padding: 1rem;
+  }
+  .advace-gmat-sec-1-head-img {
+    width: 86%;
+  }
+  .advance-gmat-sec-1-cols,
+  .advance-gmat-sec-3 .sec-3-cols {
+    display: block;
+  }
+  .advance-gmat-sec-1-cols .content-col {
+    width: 100%;
+  }
+  .advance-gmat-sec-1-cols .content-col h3,
+  .advance-gmat-sec-1-cols .content-col span {
+    font-size: 22px;
+    line-height: 2.5rem;
+  }
+  .advance-gmat-sec-1-cols .content-col .head-and-img .head-img img {
+    width: 8rem;
+  }
+  .advance-gmat-sec-1-cols .content-col h5 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents {
+    display: block;
+    margin-top: 1.5rem;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-img-cols {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-col {
+    gap: 0.5rem;
+    padding: 0.5rem;
+    height: 1.6rem;
+    justify-content: flex-start;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-col img {
+    width: 80%;
+  }
+  .advance-gmat-sec-1-cols .content-col .bullet-contents .bullet-col h6 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .advance-gmat-sec-1-cols .cl-gamt-sec-1-cols {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .cl-gamt-sec-1-cols .form-col form input {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col .btn-col button,
+  .cl-gmat-form-submit-flex button {
+    font-size: 1rem;
+  }
+  .gmat-prep-part-1-features {
+    flex-direction: column;
+  }
+  .gmat-prep-part-1-features marquee {
+    width: 100% !important;
+    margin-bottom: 1em;
+  }
+  .advance-gmat-sec-2 {
+    padding: 1rem;
+    margin: 0;
+  }
+  .advance-gmat-sec-2 .sec-2-headings h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .advance-gmat-sec-2 .sec-2-headings p {
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+  }
+  .advance-gmat-sec-2 .santosh-krithika-cols {
+    display: block;
+    margin-top: 1rem;
+  }
+  .advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col {
+    margin-top: 2rem;
+  }
+  .advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col img {
+    width: 100%;
+    z-index: 11;
+  }
+  .advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .cont-col h3 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+  .advance-gmat-sec-2 .santosh-krithika-cols .img-cont-col .cont-col p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col {
+    margin: 0 0 2rem;
+    padding: 0.5rem 0;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col .head-col h3 {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col p {
+    font-size: 1rem;
+    padding: 0 1.5rem;
+  }
+  .advance-gmat-sec-3 .sec-3-cols .cont-col .bullet-icons-letters ul li {
+    font-size: 0.7rem;
+  }
+  .advance-gmat-sec-5 {
+    padding: 0 1rem;
+  }
+  .advance-gmat-sec-5 .head-col h3 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .advance-gmat-sec-5 .tab-cols {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .advance-gmat-sec-5 .tab-cols .tab-col {
+    margin-bottom: 1.5rem;
+    padding: 1rem 2rem;
+    width: fit-content;
+    padding-bottom: 0;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 0;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col h3 {
+    font-size: 1rem;
+    line-height: 0;
+    margin-top: 5.4rem;
+    margin-bottom: 1.5em;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col p {
+    font-size: 0.8rem;
+    margin-bottom: 1.3rem;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col h4 {
+    font-size: 1rem;
+    line-height: 0;
+  }
+  .advance-gmat-sec-5 .tab-contents-cols .tab-cont-col .give-pad {
+    padding: 0 4.5rem;
+  }
+  .advance-gmat-sec-5 .btn-col button {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 1rem 3rem;
+  }
+  .advance-gmat-sec-5 .tab-cols .tab-col p {
+    line-height: 2rem;
+  }
+  .advance-gmat-sec-5 .tab-cols .tab-col:nth-child(3) p:nth-child(2){
+    line-height: 1rem;
+  }
+}
+.gmat-form-margin-top,
+.gmat-section-1st-inner-col-1 ul li:last-child {
+  margin-top: 1.5em;
+}
+.gmat-section-1st-col-2 {
+  width: 100%;
+  margin-right: 1em;
+  align-self: center;
+}
+.gmat-section-1-col-2pad {
+  padding: 1em;
+}
+.gmat-section-1-col-2pad form {
+  display: flex;
+  flex-direction: column;
+  background: #22574c;
+  padding: 2em 1.5em;
+  border-radius: 10px;
+  position: relative;
+}
+.gmat-section-1-col-2pad form input {
+  height: 55px;
+  border-radius: 12px;
+  padding-left: 1.2em;
+  border: 1.6px solid;
+  border-image: linear-gradient(
+    105.46deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.12) 100%
+  );
+  width: 90%;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Poppins;
+}
+.gmat-section-1-col-2pad form .gmat-form-margin-top:first-child,
+.gmat-section-2-inner-padding h3 {
+  margin: 0;
+}
+.gmat-section-1-col-2pad form input::placeholder {
+  color: #d3fff6;
+  font-weight: 600;
+  font-size: 15px;
+}
+.gmat-section-1-col-2pad form button {
+  background: #cb8461;
+  padding: 1em;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50px;
+  border: 0;
+  font-family: Poppins;
+  cursor: pointer;
+  margin-top: 1.5em;
+}
+.gmat-form-error-msg p,
+.gmat-form-error-msg1 p,
+.gmat-form-error-msg2 p,
+.gmat-form-error-msg3 p {
+  font-size: 13px;
+  position: absolute;
+  right: 2em;
+  padding: 3px 10px;
+  font-weight: 600;
+  border: 1px solid red;
+  background: #ffdcdc;
+  border-radius: 5px;
+  margin: -4px 0 0;
+  color: #dc3232;
+}
+.gmat-form-error-msg p::before,
+.gmat-form-error-msg1 p::before,
+.gmat-form-error-msg2 p::before,
+.gmat-form-error-msg3 p::before,
+.gmat-formlast-error-msg p::before,
+.gmat-formlast-error-msg1 p::before,
+.gmat-formlast-error-msg2 p::before,
+.gmat-formlast-error-msg3 p::before {
+  content: "";
+  position: absolute;
+  top: -0.4em;
+  right: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid red;
+}
+.gmat-form-error-msg,
+.gmat-form-error-msg1,
+.gmat-form-error-msg2,
+.gmat-form-error-msg3,
+.gmat-formlast-error-msg,
+.gmat-formlast-error-msg1,
+.gmat-formlast-error-msg2,
+.gmat-formlast-error-msg3,
+.gmat-section-mohammed-hide,
+.gmat-section-saikiran-hide,
+.gmat-section-santhosh-hide {
+  display: none;
+}
+.gmat-form-submit-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.gmat-form-submit-flex .gmat-name-gmat-btn-error,
+.gmat-form-submit-flex .gmat-name1-gmat-btn-error {
+  display: none;
+  font-size: 15px;
+  color: red;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0 0;
+}
+.gmat-section-2nd {
+  margin-top: 4em;
+}
+.gmat-section-2nd .gmat-section-2-head {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+.gmat-section-2-col-1,
+.gmat-section-2-col-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.gmat-section-2-col-3 {
+  align-items: flex-end;
+}
+.gmat-section-2-split {
+  display: flex;
+  margin-top: 2em;
+  padding-bottom: 4em;
+  justify-content: space-between;
+  background: linear-gradient(
+    180deg,
+    rgba(237, 255, 251, 0) 0,
+    #edfffb 129.28%
+  );
+}
+.gmat-section-2-google {
+  padding: 0.4em 0;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.gmat-section-2-4-4,
+.gmat-section-2-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin: auto;
+}
+.gmat-section-2-4-4 {
+  justify-content: flex-start;
+}
+.gmat-section-2-google p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #18212f;
+}
+.gmat-section-2-inner-col-flex {
+  margin-left: 0.7em;
+}
+.gmat-section-2-4-4 img,
+.gmat-section-2-inner-split {
+  margin-left: 0.5em;
+}
+.gmat-section-2-inner-img {
+  display: flex;
+  padding: 1em;
+  align-items: center;
+}
+.gmat-section-2-inner-split h3,
+.gmat-section-2-inner-split p {
+  margin: 0;
+  font-family: Poppins;
+}
+.gmat-section-2-inner-split p {
+  margin-top: 2px;
+  font-size: 12px;
+}
+.gmat-section-2-col-2 {
+  width: 1050px;
+}
+.gmat-section-2-innersplit {
+  display: flex;
+  width: 900px;
+  margin: 4em auto auto;
+  gap: 4em;
+}
+.gmat-section-2-inner-split-col-1,
+.gmat-section-2-inner-split-col-2 {
+  box-shadow: 0 37.8106px 130.693px rgba(0, 0, 0, 0.1),
+    0 15.7964px 54.6005px rgba(0, 0, 0, 0.0718854),
+    0 8.44549px 29.192px rgba(0, 0, 0, 0.0596107),
+    0 4.73447px 16.3648px rgba(0, 0, 0, 0.05),
+    0 2.51444px 8.69123px rgba(0, 0, 0, 0.0403893),
+    0 1.04632px 3.61662px rgba(0, 0, 0, 0.0281146);
+  border-radius: 10px;
+  width: 100%;
+  background-color: #fff;
+}
+.gmat-section-2-inner-split-col-1 .gmat-section-2-para {
+  padding: 0 2em 1em 1em;
+  margin: 0;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.7em;
+}
+.gmat-section-2-inner-padding {
+  padding: 0 2em 1em 1em;
+}
+.gmat-section-2-inner-padding p {
+  line-height: 30px;
+  font-size: 15px;
+  text-align: justify;
+}
+.gmat-section-2-inner-padding img {
+  display: flex;
+  margin-left: auto;
+}
+.gmat-section-2-inner-last-section {
+  gap: 5px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+}
+.gmat-section-2-inner-last-section span {
+  font-size: 13px;
+  color: #707070;
+}
+.gmat-section-2-inner-last-section span li {
+  margin-left: 7px;
+}
+.gmat-section-2-last-image span {
+  margin-left: 4px;
+  font-size: 13px;
+}
+.gmat-section-2-inner-last-section-2 {
+  padding: 0 15px;
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.gmat-pro-joshi {
+  background: linear-gradient(98.24deg, #1a5549 -0.57%, #428173 102.69%);
+  padding: 2em;
+  border-radius: 20px;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.gmat-pro-flex p,
+.gmat-prop-joshi-para {
+  color: #f2f2f2;
+  margin: 0;
+  text-align: justify;
+  line-height: 30px;
+}
+.gmat-pro-joshi-inner-part {
+  display: flex;
+  justify-content: space-between;
+}
+.gmat-pro-joshi-image {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.gmat-pro-flex h2 {
+  margin: 0;
+  color: #f4c13d;
+}
+.gmat-prep-pro-sec-4 {
+  padding: 2rem 3rem;
+  background: linear-gradient(
+    180deg,
+    rgba(237, 255, 251, 0) 0,
+    #edfffb 129.28%
+  );
+}
+.gmat-prep-pro-sec-4-cols,
+.gmat-prep-sec-4-inner {
+  background: linear-gradient(98.24deg, #1a5549 -0.57%, #428173 102.69%),
+    linear-gradient(
+      105.46deg,
+      rgba(255, 255, 255, 0.7) 0,
+      rgba(255, 255, 255, 0.24) 100%
+    );
+  border-radius: 25px;
+}
+.gmat-prep-pro-sec-width {
+  width: 90%;
+  margin: auto;
+}
+.gmat-prep-pro-sec-4-cols {
+  margin: 4rem 0;
+}
+.gmat-prep-sec-4-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.gmat-prep-pro-sec-4-cols .univer-score-col {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+}
+.gmat-prep-pro-sec-4-cols .student-col {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+}
+.gmat-prep-pro-sec-4-cols .student-col img {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+}
+.gmat-prep-pro-sec-4-cols .student-col .name-col h1 {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 2rem;
+  color: #fff;
+}
+.gmat-prep-pro-sec-4-cols .student-col .name-col p {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  color: #f1f1f1;
+}
+.gmat-2-dot,
+.gmat-2-joshi-dot,
+.gmat-2-mentor-dot,
+.gmat-3-dot,
+.gmat-4-dot {
+  background-color: #bcbfef;
+  width: 13px;
+  height: 13px;
+  margin: 1.5em 5px;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.gmat-3rd-active,
+.gmat-5th-active {
+  background-color: #04094d !important;
+}
+.gmat-section-6th {
+  width: 1070px;
+  margin: 4em auto;
+}
+.gmat-section-6-head h1 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 500;
+  color: #18212f;
+}
+.gmat-section-6-head p {
+  margin: 0;
+  font-size: 18px;
+  color: #667085;
+}
+.gmat-section-6-form form .gmat-section-6-split-form {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 0 1.5em 2em;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+.gmat-section-6-form form input {
+  height: 55px;
+  margin-top: 1.5em;
+  width: 93%;
+  border-radius: 6px;
+  padding-left: 1.2em;
+  border: 1px solid #0e141d;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #effffb;
+}
+.gmat-section-6-form form input::placeholder {
+  color: #102b52;
+  font-weight: 700;
+  font-size: 16px;
+}
+.gmat-section-6-form form button {
+  background-color: #18212f;
+  padding: 0.8em 2.5em;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 50px;
+  border: 0;
+  display: flex;
+  cursor: pointer;
+  margin: auto;
+}
+.gmat-section-6-form-col {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.gmat-formlast-error-msg p,
+.gmat-formlast-error-msg1 p,
+.gmat-formlast-error-msg2 p,
+.gmat-formlast-error-msg3 p {
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+  padding: 3px 10px;
+  font-weight: 600;
+  border: 1px solid red;
+  background: #ffdcdc;
+  border-radius: 5px;
+  margin: -4px 0 0;
+  color: #dc3232;
+}
+.gmat-section-6-form .gmat-form-margin-top {
+  margin: 0;
+  position: relative;
+}
+.gmat-section-3rd-col-1 {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 45%;
+  padding: 0.8em;
+  box-shadow: 0 67.1144px 109.061px rgba(0, 0, 0, 0.05);
+}
+.gmat-section-3rd-col-1 p {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: #576275;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.gmat-pro-top-version {
+  margin-top: 1.5em !important;
+}
+.pro-mobile-version-2 {
+  justify-content: center;
+}
+.guarantee-sec {
+  background: linear-gradient(0deg, #22554b 0, #59b6a2 129.28%);
+}
+.guarantee-sec .money-back-head {
+  text-align: left;
+}
+.guarantee-sec .money-back-head img {
+  width: 75%;
+}
+.money-back-head {
+  background-color: #113e33;
+  padding: 1.5rem 1rem 1.5rem 5rem;
+  border-radius: 0 10px 10px 0;
+  width: max-content;
+}
+.money-back-head h3 {
+  color: #ffff;
+  font-weight: 600;
+  font-size: 1.9vw;
+  line-height: 3vw;
+  margin: 0;
+}
+.guarantee-sec-cols .guarantee-content-col {
+  width: 60%;
+}
+.guarantee-sec-cols .guarantee-content-col-1 {
+  width: 40%;
+}
+.guarantee-sec .guarantee-sec-cols .list-col .point-cols {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.guarantee-sec .guarantee-sec-cols .list-col {
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.guarantee-sec .guarantee-sec-cols .list-col .point-cols .point-img {
+  margin-right: 1rem;
+}
+.guarantee-sec .guarantee-sec-cols .list-col .point-cols .point-cont p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 1.64vw;
+  line-height: 3rem;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin: 0;
+}
+.guarantee-sec .img-col img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 100000px) {
+  .gmat-section-2nd-dot,
+  .gmat-section-2nd-joshi-dot,
+  .gmat-section-3rd-dot,
+  .gmat-section-4th-dot,
+  .gmat-section-6-mobile-version {
+    display: none;
+  }
+  .gmat-section-2-inner-split-col-1,
+  .gmat-section-2-inner-split-col-2,
+  .gmat-slide-2nd-mentor-mobile-carousel,
+  .gmat-slide-3rd-mobile-carousel,
+  .part-1-1,
+  .part-2-2,
+  .sec-3-col-1,
+  .sec-3-col-2,
+  .slide4th-1,
+  .slide4th-2 {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .gmat-section-1-col-2pad {
+    padding: 0.5em;
+  }
+  .gmat-section-1-col-2pad form {
+    padding: 1.5em 1em;
+  }
+  .gmat-section-1-col-2pad form .gmat-form-margin-top {
+    margin-top: 1.5em;
+  }
+  .gmat-section-1-col-2pad form .gmat-form-margin-top input {
+    height: 40px;
+    width: 87%;
+  }
+  .gmat-section-1st-col-2 {
+    width: 100%;
+  }
+  .gmat-form-error-msg p,
+  .gmat-form-error-msg1 p,
+  .gmat-form-error-msg2 p,
+  .gmat-form-error-msg3 p {
+    right: 1em;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .gmat-section-2-col-1,
+  .gmat-section-2-col-3 {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .gmat-section-2-col-2 {
+    width: 95%;
+    margin: auto;
+  }
+  .gmat-section-2-innersplit {
+    width: auto;
+    gap: 2em;
+  }
+  .gmat-section-2-head {
+    font-size: 30px !important;
+  }
+  .gmat-section-6th {
+    width: 95%;
+    margin-top: 2em;
+  }
+  .gmat-section-6-head p {
+    font-size: 16px;
+  }
+  .gmat-section-6-head h1 {
+    font-size: 30px;
+  }
+  .gmat-section-1-col-2pad form button {
+    font-size: 12px;
+    padding: 0.9em;
+  }
+  .gmat-section-3rd-col-1 p {
+    font-size: 10px;
+  }
+  .gmat-pro-2-inner .gmat-pro-2-inner-split-1 .gmat-pro-top-version {
+    margin-top: 1em !important;
+  }
+  .gmat-prep-pro-sec-4-cols {
+    margin: 2rem 0;
+    border-radius: 20px;
+  }
+  .gmat-prep-pro-sec-4 {
+    padding: 1rem 2rem;
+  }
+  .gmat-prep-pro-sec-4-cols .student-col {
+    column-gap: 1rem;
+  }
+  .gmat-prep-pro-sec-4-cols .student-col img {
+    border-radius: 20px;
+  }
+  .gmat-prep-pro-sec-4-cols .student-col .name-col h1 {
+    font-size: 1.6rem;
+    line-height: 1rem;
+  }
+  .gmat-prep-pro-sec-4-cols .student-col .name-col p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .gmat-prep-pro-sec-4-cols .univercity-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gmat-prep-pro-sec-4-cols .univercity-col img {
+    width: 150px;
+  }
+  .student-col .img-col img {
+    width: 100px;
+    height: 100px;
+  }
+  .medal-col img {
+    width: 100px;
+  }
+  .student-col {
+    gap: 1.5em;
+  }
+  .guarantee-sec {
+    padding: 2rem 0 0;
+  }
+  .guarantee-sec .guarantee-sec-cols .list-col {
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+  }
+  .money-back-head {
+    padding: 1rem 1rem 1rem 2rem;
+  }
+  .guarantee-sec .guarantee-sec-cols .list-col .point-cols .point-cont p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 0.02em;
+  }
+  .guarantee-sec .img-col img {
+    width: 100%;
+  }
+  .advance-gmat-sec-5 .tab-cols .tab-col p {
+    line-height: 2rem;
+  }
+  .advance-gmat-sec-5 .tab-cols .tab-col:nth-child(3) p:nth-child(2){
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 767px) {
+  .mobile-pro {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .desktop-pro,
+  .gmat-section-6-mobile-version-1st,
+  .guarantee-sec .guarantee-sec-cols .img-col {
+    display: none;
+  }
+  .gmat-section-1st-inner-col-1 img {
+    position: absolute;
+    right: 0;
+    bottom: -4rem;
+    width: 120px;
+  }
+  .gmat-section-1st-col-1 {
+    padding-bottom: 3rem;
+  }
+  .gmat-section-1st-inner-col-2 img {
+    width: 95%;
+  }
+  header img {
+    width: 180px;
+  }
+  .gmat-section-1st-head-content h1 {
+    font-size: 27px;
+  }
+  .gmat-section-1st-head-content h2 {
+    font-size: 23px;
+  }
+  .gmat-form-error-msg p,
+  .gmat-form-error-msg1 p,
+  .gmat-form-error-msg2 p,
+  .gmat-form-error-msg3 p {
+    right: 1em;
+  }
+  .gmat-section-1-col-2pad form .gmat-form-margin-top input {
+    width: 92%;
+  }
+  .gmat-section-1st-head-content {
+    padding: 0;
+    text-align: center;
+    margin-top: 3em;
+  }
+  .gmat-prep-pro-2,
+  .gmat-section-1st-col-1 .gmat-section-1st-inner-col-1,
+  .gmat-section-2-innersplit,
+  .gmat-section-2nd {
+    margin-top: 2em;
+  }
+  .gmat-section-solumn-split {
+    flex-direction: column-reverse;
+    margin-top: 1.5em;
+  }
+  .gmat-prep-sec-4-inner,
+  .gmat-section-1st-width,
+  .gmat-section-2-innersplit,
+  .gmat-section-2-split,
+  .gmat-section-6-form form .gmat-section-6-split-form {
+    flex-direction: column;
+  }
+  .gmat-section-1st-inner-col-1 {
+    margin: 1em;
+    border-radius: 20px !important;
+  }
+  .gmat-section-1st-col-1,
+  .gmat-section-1st-col-2 {
+    width: 100%;
+  }
+  .gmat-section-1st-inner-col-1 ul {
+    padding: 1em 0.5em 3em 2.5em;
+  }
+  .gmat-section-1st-inner-col-1 ul li {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .gmat-section-1st-inner-col-2 {
+    width: 100%;
+    margin-top: 1em;
+  }
+  .gmat-form-submit-flex button {
+    padding: 15px;
+  }
+  .gmat-section-1st-col-2 {
+    width: 100%;
+    margin: 0;
+  }
+  .gmat-section-1-col-2pad {
+    padding: 0.5rem;
+  }
+  .gmat-section-1-col-2pad form {
+    padding: 2.5em 1.5rem;
+  }
+  .gmat-section-2-split {
+    margin-top: 1em;
+    padding-bottom: 0;
+  }
+  .gmat-pro-flex h2,
+  .gmat-section-2nd .gmat-section-2-head,
+  .gmat-section-6-head h1 {
+    font-size: 20px;
+  }
+  .gmat-section-2-col-2 {
+    width: 90%;
+    margin: auto;
+  }
+  .gmat-section-2-4-4 img {
+    width: 110px;
+  }
+  .gmat-prep-pro-sec-3 .btn-col button,
+  .gmat-section-1-col-2pad form button,
+  .gmat-section-2-google p,
+  .gmat-section-2-inner-padding h3,
+  .gmat-section-6-form form button {
+    font-size: 15px;
+  }
+  .gmat-section-2-inner-padding p {
+    line-height: 24px;
+    font-size: 12px;
+  }
+  .gmat-section-2-para {
+    font-size: 12px !important;
+  }
+  .gmat-section-2-inner-padding,
+  .gmat-section-2-inner-split-col-1 .gmat-section-2-para {
+    padding: 0 1em 1em;
+  }
+  .gmat-section-2-inner-last-section span,
+  .gmat-section-2-last-image span,
+  .gmat-section-6-head p {
+    font-size: 12px;
+  }
+  .gmat-section-2-inner-last-section-2 {
+    gap: 0.5em;
+  }
+  .gmat-section-2nd-dot,
+  .gmat-section-2nd-joshi-dot,
+  .gmat-section-3rd-dot,
+  .gmat-section-4th-dot {
+    display: block;
+    margin-top: 5px;
+  }
+  .gmat-section-3rd-dot,
+  .part-2-2 {
+    margin-top: 0 !important;
+  }
+  .gmat-pro-joshi-inner-part {
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+  }
+  .gmat-pro-joshi-image img {
+    width: 50px;
+    height: 50px;
+  }
+  .gmat-pro-joshi {
+    padding: 2em 1em;
+  }
+  .gmat-pro-flex p,
+  .gmat-prop-joshi-para {
+    font-size: 13px;
+    line-height: 27px;
+  }
+  .gmat-section-2-innersplit {
+    width: auto;
+    margin: 1em 0 2em;
+  }
+  .gmat-section-6-form-col {
+    width: auto;
+  }
+  .gmat-section-6th {
+    width: 95%;
+    margin-top: 2em;
+  }
+  .gmat-form-margin-top input {
+    font-size: 14px !important;
+    width: 94% !important;
+    height: 50px !important;
+  }
+  .gmat-form-margin-top input::placeholder,
+  .gmat-section-1-col-2pad form input::placeholder {
+    font-size: 14px !important;
+  }
+  .gmat-section-3rd-inner-part {
+    margin-top: -1.5em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 97%;
+    gap: 12px;
+  }
+  .gmat-section-3rd-inner-col-split img {
+    width: 40px;
+  }
+  .gmat-section-3rd-col-1 {
+    width: auto !important;
+    padding: 0.6em;
+  }
+  .gmat-section-3rd-inner-col-split h2 {
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  .gmat-section-3rd-col-1 p {
+    font-size: 10px;
+  }
+  .gmat-pro-2-inner {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .gmat-pro-2-inner-split-1 {
+    width: auto;
+    margin-top: 0.5em;
+  }
+  .pro-mobile-version-2 {
+    grid-template-columns: 50%;
+  }
+  .gmat-pro-2-inner-split-1 .gmat-pro-top-version {
+    margin-top: 12px !important;
+  }
+  .gmat-prep-pro-sec-3 .gmat-section-6-head h1,
+  .gmat-prep-pro-sec-4 .gmat-section-6-head h1 {
+    font-size: 17px !important;
+  }
+  .gmat-prep-pro-sec-3-cols img {
+    width: 85%;
+  }
+  .gmat-prep-pro-sec-3 {
+    margin: 2rem 0;
+  }
+  .gmat-prep-pro-sec-3-cols {
+    display: block;
+    padding: 1rem 0 0;
+  }
+  .gmat-prep-pro-sec-3-cols .sec-3-col {
+    padding-top: 0;
+  }
+  .gmat-prep-pro-sec-4 {
+    padding: 1rem;
+  }
+  .gmat-prep-pro-sec-4-cols {
+    display: block;
+    border-radius: 16px;
+    margin: 2rem 0 1rem;
+    padding: 2rem 0;
+  }
+  .gmat-prep-pro-sec-4-cols .student-col {
+    display: block;
+    column-gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+  }
+  .gmat-prep-pro-sec-4-cols .img-col {
+    display: flex;
+    justify-content: center;
+  }
+  .gmat-prep-pro-sec-4-cols .student-col .name-col h1 {
+    font-size: 2rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+  .gmat-prep-pro-sec-4-cols .student-col .name-col p {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+  .gmat-prep-pro-sec-4-cols .student-col img {
+    width: 160px;
+    height: 150px;
+  }
+  .gmat-prep-pro-sec-4-cols .univercity-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gmat-prep-pro-sec-4-cols .univer-score-col {
+    gap: 0;
+    justify-content: space-around;
+  }
+  .univercity-col img {
+    width: 150px;
+  }
+  .medal-col img {
+    width: 100px;
+  }
+  .gmat-prep-pro-sec-3 .btn-col {
+    margin-top: 0;
+    padding-bottom: 2em;
+  }
+  .gmat-section-6-mobile-version,
+  .guarantee-sec .guarantee-sec-cols {
+    display: block;
+  }
+  .gmat-slide-3rd-mobile-carousel {
+    text-align: left;
+  }
+  .guarantee-sec {
+    padding: 2rem 0 0;
+  }
+  .guarantee-content-col,
+  .guarantee-sec .guarantee-sec-cols .img-col.guarantee-content-col-1 {
+    width: 100% !important;
+    display: block;
+  }
+  .money-back-head {
+    padding: 1rem 1rem 1rem 3rem;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .guarantee-content-col .list-col {
+    margin-left: 1rem !important;
+  }
+  .money-back-head h3 {
+    font-size: 15px;
+    line-height: 1.6rem;
+  }
+  .guarantee-sec .money-back-head {
+    text-align: center;
+  }
+  .guarantee-sec .money-back-head img {
+    width: 90%;
+  }
+  .guarantee-sec .guarantee-sec-cols .list-col .point-cols .point-img {
+    margin-right: 0.5rem;
+  }
+  .guarantee-sec .guarantee-sec-cols .list-col .point-cols .point-cont p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5rem;
+    letter-spacing: 0.02em;
+  }
+}

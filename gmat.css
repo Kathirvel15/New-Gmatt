@@ -7,7 +7,10 @@ body,
 
 /* Section -2 */
 .gmat-sec-2 {
-    background: linear-gradient(146deg, #E1CBFF 0%, rgba(150, 111, 204, 0.13) 50.28%, rgba(76, 20, 154, 0.02) 100%);
+    background: linear-gradient(146deg,
+            #e1cbff 0%,
+            rgba(150, 111, 204, 0.13) 50.28%,
+            rgba(76, 20, 154, 0.02) 100%);
 }
 
 .gmat-sec-2 .head-h1 {
@@ -17,15 +20,15 @@ body,
 .head-h1 {
     text-align: center;
     font-weight: 500;
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     margin: 0px;
     padding: 1em 0px;
-    color: #3e3E4C;
+    color: #3e3e4c;
     line-height: 4vw;
 }
 
 .gre-purple-color {
-    color: #420D8C;
+    color: #420d8c;
     font-weight: 700;
 }
 
@@ -53,7 +56,7 @@ body,
 
 .sec-2-inner {
     border-radius: 21px;
-    background: #F9F9F9;
+    background: #f9f9f9;
     box-shadow: 5px 13px 44px 0px rgba(0, 0, 0, 0.21);
     padding: 2vw 4vw 3.5vw;
     display: flex;
@@ -82,7 +85,7 @@ body,
 }
 
 .score-number {
-    color: #D74646
+    color: #d74646;
 }
 
 .bar {
@@ -90,9 +93,9 @@ body,
     margin-top: 1.2vw;
     width: 100%;
     border-radius: 1em;
-    border: 0.1vw solid #7B54B0;
+    border: 0.1vw solid #7b54b0;
     height: 1.2vw;
-    box-shadow: 0px 0.3vw 0.1vw #2D0F57
+    box-shadow: 0px 0.3vw 0.1vw #2d0f57;
 }
 
 .bar::-webkit-slider-thumb {
@@ -102,7 +105,7 @@ body,
     height: 2.5vw;
     background-color: #fff;
     box-shadow: 0px 0vw 1vw #2d0f577a;
-    border: 0.2vw solid #7040B1;
+    border: 0.2vw solid #7040b1;
     cursor: pointer;
 }
 
@@ -119,8 +122,8 @@ body,
 /* Carousel */
 .gmat-carousel-first {
     border-radius: 20px;
-    border: 0.5px solid #9B9B9B;
-    background: #FFF;
+    border: 0.5px solid #9b9b9b;
+    background: #fff;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.29);
     width: 18vw;
     padding: 1vw 2vw 2vw 2vw;
@@ -130,7 +133,7 @@ body,
 .gmat-carousel-flex {
     display: flex;
     align-items: center;
-    color: #7F26C5;
+    color: #7f26c5;
     gap: 1vw;
     justify-content: center;
 }
@@ -163,19 +166,20 @@ body,
     gap: 1vw;
 }
 
-
 /* section-6 */
 .gmat-sec-6 {
-    background: linear-gradient(to bottom left, #e1cbff6b 0%, #fff, #e1cbff6b 100%);
+    background: linear-gradient(to bottom left,
+            #e1cbff6b 0%,
+            #fff,
+            #e1cbff6b 100%);
     padding-bottom: 4vw;
 }
-
 
 .gmat-background-color {
     background-position: bottom;
     background-size: 100% 600px;
     background-repeat: no-repeat;
-    background-image: url("Assets/background-image.png");
+    background-image: url("./Assets/background-image.png");
 }
 
 .gmat-sec-6-card-1,
@@ -184,7 +188,7 @@ body,
     padding: 3vw 1vw 2vw;
     width: max-content;
     text-align: center;
-    border-radius: 18.20px;
+    border-radius: 18.2px;
     box-shadow: 0px 7.5px 33px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -224,7 +228,7 @@ body,
     right: -100%;
     width: 100%;
     height: 100%;
-    background-color: #5B1CB8;
+    background-color: #5b1cb8;
     opacity: 0;
     transition: opacity 0.4s ease, top 0.4s ease, right 0.4s ease;
 }
@@ -236,7 +240,7 @@ body,
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #5B1CB8;
+    background-color: #5b1cb8;
     opacity: 0;
     transition: opacity 0.4s ease, top 0.4s ease, left 0.4s ease;
 }
@@ -269,9 +273,97 @@ body,
 }
 
 .gmat-sec-7 {
-    background-image: url("Assets/back-vector.png");
+    background-image: url("./Assets/back-vector.png");
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+/* section-4 */
+.section-4-gre {
+    padding-top: 5vw;
+}
+
+.section-4-width {
+    width: 90vw;
+    margin: auto;
+}
+
+.head-h1 span img {
+    width: 7vw;
+    position: relative;
+    top: 10px;
+}
+
+.section-4-width .section-gre-3-part .section-3-part-1 {
+    width: 20vw;
+    justify-content: center;
+}
+
+.section-4-width .section-gre-3-part .section-3-part-1 p {
+    font-size: 1.2vw;
+}
+
+.section-3-col-1 {
+    margin-bottom: 5vw;
+}
+
+.section-3-col-1 p {
+    font-size: 1.4vw;
+    margin: 0px;
+    line-height: 2.8vw;
+}
+
+.section-3-col-1 .head-h1 {
+    padding: 1em 0px 0.5em;
+    text-align: left;
+}
+
+.section-3-col-1 p.section-3-inner-p {
+    margin-top: 1em;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.section-3-part-1 {
+    display: flex;
+    gap: 1vw;
+    width: max-content;
+    border: 1px solid;
+    padding: 0.6vw 0.7vw;
+    border-radius: 8px;
+}
+
+.section-3-part-1 p {
+    font-weight: 600;
+    font-size: 1.05vw;
+}
+
+.section-gre-3-part {
+    display: flex;
+    gap: 2vw;
+    margin-top: 2vw;
+}
+
+.one-two .section-3-part-1 {
+    padding-right: 2vw;
+}
+
+.section-3-part-1 img {
+    width: 3vw;
+}
+
+.section-3-col-2 {
+    align-self: flex-end;
+}
+
+.section-3-col-2 img {
+    width: 36vw;
+}
+
+.section-3-split {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between
 }
 
 /* Google review */
@@ -385,7 +477,10 @@ body,
 
 /* sectionn-8 */
 .section-8-gre {
-    background: linear-gradient(to bottom left, #e1cbff6b 0%, #fff, #e1cbff6b 100%);
+    background: linear-gradient(to bottom left,
+            #e1cbff6b 0%,
+            #fff,
+            #e1cbff6b 100%);
     padding-bottom: 6vw;
     padding-top: 2vw;
 }
@@ -574,8 +669,36 @@ body,
     font-weight: 500;
 }
 
-@media screen and (max-width: 767px) {
+img.question {
+    width: 30px !important;
+    height: 40px;
+    position: absolute;
+    right: 44%;
+    top: -10px;
+}
 
+.fadeInRight {
+    animation: fadeInRight 2s both;
+}
+
+.scroll-container {
+    position: relative;
+}
+
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 767px) {
     .head-h1 {
         font-size: 5.3vw !important;
         text-align: center !important;
@@ -617,7 +740,6 @@ body,
     }
 
     .bar::-webkit-slider-thumb {
-
         width: 4.4vw;
         height: 4.5vw;
     }
@@ -669,7 +791,7 @@ body,
     }
 
     .swiper-button-next {
-        right: 4vw !important
+        right: 4vw !important;
     }
 
     .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
@@ -685,6 +807,7 @@ body,
 
     .gmat-sec-6 {
         padding-bottom: 2rem;
+        margin-top: 2rem;
     }
 
     .gmat-sec-6-innner-card-split svg {
@@ -903,6 +1026,72 @@ body,
         padding-bottom: 1rem;
     }
 
+    /* section-4 */
+    .section-4-gre {
+        padding-top: 2rem;
+    }
+
+    .section-4-width .section-gre-3-part .section-3-part-1 {
+        width: auto;
+        padding: 8px;
+    }
+
+    .section-4-width .section-gre-3-part .section-3-part-1 p {
+        font-size: 4vw;
+    }
+
+    .section-4-width .section-gre-3-part {
+        width: 75%;
+    }
+
+    .section-4-width .section-3-split {
+        gap: 0.5em;
+    }
+
+    .section-3-split {
+        flex-direction: column;
+    }
+
+    .section-3-col-1 {
+        margin-bottom: 0px;
+    }
+
+    .section-3-col-1 p {
+        text-align: center;
+        font-size: 3vw;
+        line-height: 6vw;
+    }
+
+    .mobilepara {
+        font-size: 3.5vw !important;
+        line-height: 6.5vw !important;
+    }
+
+    .section-3-inner-p {
+        font-size: 4vw !important;
+    }
+
+    .section-gre-3-part {
+        flex-direction: column;
+        width: 90%;
+        margin: 1em auto 0px;
+        gap: 1em;
+    }
+
+    .section-3-part-1 img {
+        width: 9vw;
+    }
+
+    .section-3-part-1 {
+        align-items: center;
+        width: auto;
+        gap: 1em;
+        padding: 5px;
+    }
+
+    .section-3-col-2 img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -914,17 +1103,11 @@ body,
         width: 15px !important;
         height: 15px !important;
     }
-
 }
-
-
-
-
-
 
 /* SWIPER SLIDER */
 :root {
-    --primary: #5F24AF;
+    --primary: #5f24af;
     --white: #ffffff;
     --bg: #f5f5f5;
 }
@@ -976,9 +1159,8 @@ body,
     border: 1px solid;
 }
 
-
 .carousel-arrow .slider-arrow::after {
-    content: '';
+    content: "";
 }
 
 .slider-arrow .md.hydrated {
@@ -1000,4 +1182,830 @@ body,
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
     background: var(--primary);
+}
+
+/* ----------------************* Second Half *************--------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+
+@media (min-width: 1024px) {
+    .width-for-sec {
+        width: 78vw;
+        margin: auto;
+    }
+}
+
+/* Desktop Hidden */
+.header-cols .mobile-views {
+    display: none;
+}
+
+#nav_img {
+    display: none;
+}
+
+#close_img {
+    display: none;
+}
+
+.mob-break {
+    display: none;
+}
+
+.mobile-views {
+    display: none;
+}
+
+/* Header-Section */
+.gmat-header {
+    background: #3c0d7d;
+    position: fixed;
+    width: 100%;
+    z-index: 111111;
+}
+
+.gmat-header .header-cols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 4rem;
+}
+
+.gmat-header .header-cols .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gmat-header .header-cols .nav-content a {
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: #ffffffb2;
+    cursor: pointer;
+    padding-right: 3rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.gmat-header .header-cols .nav-content a:hover {
+    color: #ffffff;
+}
+
+.gmat-header .header-cols .nav-content .btn-col .button {
+    background: #15baa6;
+    border: solid 1px #ffffff;
+    border-radius: 7px;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gmat-header .header-cols .nav-content .btn-col .button:hover,
+.gmat-header .header-cols .nav-content .btn-col button:hover {
+    color: #ffffff;
+}
+
+.gmat-header .header-cols .nav-content .btn-col .button i {
+    font-size: 1.1rem;
+    padding-right: 0.5rem;
+}
+
+.gmat-header .header-cols .nav-content .btn-col .button a {
+    padding: 0;
+}
+
+.gmat-header .header-cols .nav-content .btn-col button {
+    background: #15baa6;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--white, #fff);
+    padding: 0rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Section 1 */
+.gmat-sec-1 {
+    padding: 3rem 2rem;
+    background: linear-gradient(167deg, #682cba 0%, #4a1297 100%);
+    padding-top: 5rem;
+}
+
+.gmat-sec-1 .sec-1-cols {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .head-col h3 {
+    color: #fff;
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 4.5vw;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .head-col h3 span {
+    font-weight: 700;
+    color: #15baa6;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .content-col h5 {
+    color: #fff;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 4vw;
+    text-transform: capitalize;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .btn-col {
+    margin-top: 1rem;
+}
+
+.gmat-sec-1 .sec-1-cols .head-cont-col .btn-col button {
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 1.3vw;
+    border-radius: 15px;
+    border: none;
+    font-weight: 500;
+    padding: 1.3vw 2.3vw;
+    cursor: pointer;
+    background: #15baa6;
+}
+
+.gmat-sec-1 .sec-1-cols .img-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmat-sec-1 .sec-1-cols .img-col img {
+    width: 40vw;
+    height: 80vh;
+}
+
+/* Marquee */
+/* Marquee Section */
+.marquee-sec {
+    background: #c197fbad;
+    padding: 0.5rem 0;
+}
+
+.marquee-sec .marquee-sec-cols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marquee-sec .marquee-sec-cols .head-col {
+    width: 20%;
+}
+
+.marquee-sec .marquee-sec-cols .content-col {
+    width: 80%;
+}
+
+.marquee-sec .marquee-sec-cols .content-col marquee {
+    padding-top: 0.3rem;
+    margin-bottom: -0.5rem;
+}
+
+.marquee-sec .marquee-sec-cols .content-col img {
+    margin-right: 2.5rem;
+}
+
+.marquee-sec .marquee-sec-cols .head-col h5 {
+    color: #561aa9;
+    font-size: 1.4rem;
+    text-align: right;
+    font-weight: 600;
+    line-height: 1.4rem;
+    text-transform: capitalize;
+    padding-right: 2rem;
+}
+
+.scroll-parent {
+    position: relative;
+    width: 80vw;
+    height: auto;
+    overflow: hidden;
+    width: auto;
+}
+
+.scroll-parent .scroll-element {
+    width: calc(250px * 12);
+    display: flex;
+    animation: primary 20s linear infinite;
+}
+
+@keyframes primary {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 6));
+    }
+}
+
+/* section - 3 */
+.gmat-sec-3 {
+    padding: 3rem 4rem;
+}
+
+.gmat-sec-3 .sec-3-cols {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 22vw; */
+    align-items: center;
+}
+
+.gmat-sec-3 .sec-3-cols .content-col {
+    width: 50%;
+}
+
+.gmat-sec-3 .sec-3-cols .content-col h3,
+.gmat-sec-3 .sec-3-cols .video-col h3 {
+    color: #373737;
+    font-size: 2.5vw;
+    font-weight: 500;
+    line-height: 4.5vw;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+.gmat-sec-3 .sec-3-cols .content-col p {
+    color: #373737;
+    font-size: 1.6vw;
+    font-weight: 400;
+    line-height: 3vw;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+.gmat-sec-3 .sec-3-cols .content-col h3 span,
+.gmat-sec-3 .sec-3-cols .video-col h3 span {
+    color: #420d8c;
+    font-weight: 700;
+}
+
+.gmat-sec-3 .sec-3-cols .content-col .btn-col {
+    border-radius: 13px;
+    background: #15baa6;
+    text-align: center;
+    width: 18vw;
+    cursor: pointer;
+    padding: 1vw 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmat-sec-3 .sec-3-cols .content-col .btn-col button {
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 1.4vw;
+    background: #15baa6;
+    font-weight: 600;
+    line-height: 1vw;
+    padding-right: 1rem;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.gmat-sec-3 .sec-3-cols .content-col .btn-col i {
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.gmat-sec-3 .sec-3-cols .video-col {
+    background-image: url("./Assets/video-back-img.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    text-align: center;
+}
+
+.gmat-sec-3 .sec-3-cols .video-col iframe {
+    width: 35vw;
+    height: 40vh;
+    margin-top: 3rem;
+    border-radius: 13px;
+}
+
+/* Section - 4 */
+.gmat-sec-4 {
+    background-image: url("../Assets/gre/new-gre/form-sec.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gmat-sec-4 .head-col {
+    padding: 3rem 0;
+    padding-bottom: 4rem;
+}
+
+.gmat-sec-4 .head-col h3 {
+    color: #3e3e4c;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    text-transform: capitalize;
+}
+
+.gmat-sec-4 .head-col h3 span {
+    color: #420d8c;
+    font-weight: 700;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form {
+    padding: 2rem;
+    border-radius: 50px;
+    background: #682cba;
+    box-shadow: 0px 8px 22px 0px rgba(0, 0, 0, 0.2);
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form .form-cols {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form p {
+    color: #fff;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-transform: capitalize;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form input {
+    border-radius: 10px;
+    border: 0.515px solid #414141;
+    background: #fff5fa;
+    padding: 0.4rem 0.7rem;
+    width: 100%;
+    height: 40px;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .col {
+    width: 40%;
+    margin-top: 2rem;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    text-transform: capitalize;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .check-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .check-box input[type="checkbox"] {
+    width: 20px;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding-left: 0.5rem;
+    text-transform: capitalize;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .btn-col {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -4rem;
+}
+
+.gmat-sec-4 .gmat-sec-4-cont-form form .btn-col button {
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1rem;
+    padding: 1.8rem 2.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 18px;
+    background: var(--secondary-clr, #15baa6);
+}
+
+/* -----------**************Tab-View***************----------------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Tab Hiddens */
+    .mob-break {
+        display: none;
+    }
+
+    /* Header-Section */
+    .gmat-header .logo-col img {
+        width: 80%;
+    }
+
+    .gmat-header .header-cols {
+        padding: 0.5rem 2rem;
+    }
+
+    .gmat-header .header-cols .nav-content a {
+        font-size: 0.6rem;
+        padding-right: 1.5rem;
+    }
+
+    .gmat-header .header-cols .nav-content .btn-col button {
+        font-size: 0.8rem;
+        padding: 0rem;
+    }
+
+    .gmat-header .header-cols .nav-content .btn-col button i {
+        font-size: 0.3rem;
+        padding-right: 0.7rem;
+    }
+
+    /* Section - 1 */
+    .gmat-sec-1 .sec-1-cols .img-col img {
+        width: 40vw;
+        height: 35vh;
+    }
+
+    /* marquee sec */
+    .marquee-sec .marquee-sec-cols .head-col h5 {
+        font-size: 1rem;
+    }
+
+    .marquee-sec .marquee-sec-cols .content-col img {
+        margin-right: 0;
+        width: 68%;
+    }
+
+    /* Section -3  */
+    .gmat-sec-3 {
+        padding: 2rem;
+    }
+
+    .gmat-sec-3 .sec-3-cols .video-col iframe {
+        width: 44vw;
+        height: 19vh;
+        margin-top: 3rem;
+        border-radius: 13px;
+    }
+
+    /* Section -  4 */
+    .gmat-sec-4 {
+        padding: 0.5rem 2rem;
+    }
+
+    .gmat-sec-4 .head-col {
+        padding: 1rem 0;
+        padding-bottom: 2rem;
+    }
+
+    .gmat-sec-4 .head-col h3 {
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form {
+        padding: 1rem;
+        border-radius: 30px;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .col {
+        margin-top: 1rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form p {
+        font-size: 0.8rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form input {
+        border-radius: 10px;
+        padding: 0.5rem 0.7rem;
+        height: 20px;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form input::placeholder {
+        font-size: 0.7rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .check-box input[type="checkbox"] {
+        width: 15px;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .btn-col {
+        margin-top: 1rem;
+        margin-bottom: -2rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .btn-col button {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        border-radius: 18px;
+    }
+}
+
+/* -----------**************Mobile-View***************----------------- */
+
+@media (max-width: 767px) {
+
+    /* enable on mobile */
+    .header-cols .mobile-views {
+        display: block;
+    }
+
+    #nav_img {
+        display: block;
+    }
+
+    #navcontent {
+        display: none;
+    }
+
+    .break-hidden {
+        display: none;
+    }
+
+    .mob-break {
+        display: inline;
+    }
+
+    .Desktop-views {
+        display: none;
+    }
+
+    .mobile-views {
+        display: block;
+    }
+
+    /* Header Section */
+    .gmat-header {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .gmat-header .logo-col img {
+        width: 80%;
+    }
+
+    .gmat-header .header-cols {
+        display: block;
+        padding: 0.5rem 1rem;
+    }
+
+    .gmat-header .header-cols .logo-col {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .gmat-header .header-cols .nav-content a {
+        font-size: 0.9rem;
+        line-height: 3rem;
+        padding-right: 0;
+        display: block;
+        border-bottom: 1px solid #ffffff3d;
+    }
+
+    .gmat-header .header-cols .nav-content .btn-col a {
+        border: none;
+    }
+
+    .gmat-header .header-cols .nav-content .btn-col .button {
+        background: none;
+        border: none;
+    }
+
+    .gmat-header .header-cols .nav-content .btn-col .button i {
+        /* font-size: 1.3rem;
+      padding-right: 0.7rem; */
+        display: none;
+    }
+
+    .gmat-header .header-cols .nav-content .btn-col .button {
+        padding: 0;
+    }
+
+    .gmat-header .header-cols .nav-content .btn-col button {
+        font-size: 0.9rem;
+        background: none;
+        background-color: none;
+        border: none;
+        padding: 0.5rem 0rem;
+        color: #ffffffb2;
+    }
+
+    /* Section - 1 */
+    .gmat-sec-1 {
+        padding: 3rem 1rem;
+        padding-top: 5rem;
+    }
+
+    .gmat-sec-1 .sec-1-cols {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .gmat-sec-1 .sec-1-cols .img-col img {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .gmat-sec-1 .sec-1-cols .head-cont-col .head-col h3 {
+        font-size: 6vw;
+        text-align: center;
+        line-height: 8.5vw;
+    }
+
+    .gmat-sec-1 .sec-1-cols .head-cont-col .content-col h5 {
+        font-size: 2.2vw;
+        text-align: center;
+        line-height: 6vw;
+    }
+
+    .gmat-sec-1 .sec-1-cols .head-cont-col .btn-col {
+        text-align: center;
+    }
+
+    .gmat-sec-1 .sec-1-cols .head-cont-col .btn-col button {
+        text-align: center;
+        font-size: 3vw;
+        border-radius: 5px;
+        padding: 3.5vw 5.3vw;
+    }
+
+    /* marquee section */
+    .marquee-sec .marquee-sec-cols {
+        display: block;
+    }
+
+    .marquee-sec .marquee-sec-cols .head-col {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .marquee-sec .marquee-sec-cols .head-col h5 {
+        text-align: center;
+    }
+
+    .marquee-sec .marquee-sec-cols .content-col {
+        width: 100%;
+    }
+
+    /* Section - 3 */
+    .gmat-sec-3 {
+        padding: 1rem;
+    }
+
+    .gmat-sec-3 .sec-3-cols {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .gmat-sec-3 .sec-3-cols .content-col {
+        width: 100%;
+    }
+
+    .gmat-sec-3 .sec-3-cols .content-col p {
+        font-size: 3.8vw;
+        text-align: center;
+        line-height: 7vw;
+        padding-bottom: 0rem;
+        padding: 1.5rem 0;
+    }
+
+    .gmat-sec-3 .sec-3-cols .content-col .btn-col {
+        border-radius: 6px;
+        width: 20vh;
+        margin: auto;
+        padding: 3vw 4vw;
+    }
+
+    .gmat-sec-3 .sec-3-cols .content-col .btn-col button {
+        font-size: 3.6vw;
+        line-height: 1vw;
+        padding-right: 0.5rem;
+        border-radius: 13px;
+    }
+
+    .gmat-sec-3 .sec-3-cols .content-col .btn-col i {
+        font-size: 4vw;
+    }
+
+    .gmat-sec-3 .sec-3-cols .video-col {
+        background-position: bottom;
+        background-position-y: 124px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .gmat-sec-3 .sec-3-cols .content-col h3,
+    .gmat-sec-3 .sec-3-cols .video-col h3 {
+        font-size: 5.5vw;
+        text-align: center;
+        line-height: 8.5vw;
+        padding-bottom: 4rem;
+    }
+
+    .gmat-sec-3 .sec-3-cols .video-col iframe {
+        width: 86vw;
+        height: 27vh;
+        margin-top: 0rem;
+        border-radius: 8px;
+    }
+
+    /* Section - 4 */
+    .gmat-sec-4 {
+        padding: 0.5rem 1rem;
+    }
+
+    .gmat-sec-4 .head-col {
+        padding: 2rem 0;
+        padding-bottom: 2rem;
+    }
+
+    .gmat-sec-4 .head-col h3 {
+        font-size: 1.2rem;
+        line-height: 2.3rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form {
+        padding: 1rem 2rem;
+        border-radius: 20px;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form .form-cols {
+        display: block;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .col {
+        width: 94%;
+        margin-top: 1rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form p {
+        font-size: 1rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form input {
+        border-radius: 10px;
+        padding: 0.5rem 0.7rem;
+        width: 98%;
+        height: 25px;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form input::placeholder {
+        font-size: 0.8rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .check-box input[type="checkbox"] {
+        width: 33px;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .btn-col {
+        margin-top: 1rem;
+        margin-bottom: -2rem;
+    }
+
+    .gmat-sec-4 .gmat-sec-4-cont-form form .btn-col button {
+        font-size: 1rem;
+        padding: 1.5rem 2rem;
+        border-radius: 15px;
+    }
 }
