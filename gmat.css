@@ -179,13 +179,13 @@ body,
     background-position: bottom;
     background-size: 100% 600px;
     background-repeat: no-repeat;
-    background-image: url("./Assets/background-image.png");
+    background-image: url("./Assets/background-image.svg");
 }
 
 .gmat-sec-6-card-1,
 .gmat-sec-6-card-2 {
     background-color: #fff;
-    padding: 2vw 1vw 2vw;
+    padding: 2vw 0.5vw 2vw;
     width: max-content;
     text-align: center;
     border-radius: 18.2px;
@@ -195,6 +195,7 @@ body,
 .gmat-sec-6-width {
     width: 70vw;
     margin: auto;
+    padding-top: 3vw;
 }
 
 .gmat-sec-6-card-1 p,
@@ -202,7 +203,7 @@ body,
     font-weight: 600;
     font-size: 1.2vw;
     margin: 0px;
-    margin-top: 1.5vw;
+    margin-top: 2vw;
     line-height: 2.5vw;
     transition: 0.5s ease color;
 }
@@ -212,6 +213,7 @@ body,
     justify-content: space-between;
     grid-template-columns: auto auto auto;
     gap: 5vw;
+    margin-top: 2vw;
 }
 
 .gmat-sec-6-card-1,
@@ -460,6 +462,15 @@ body,
     padding-bottom: 4rem;
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gmat-sec-7-cols img {
+    filter: grayscale(100%);
+}
+
+.gmat-sec-7-cols img:hover {
+    filter: grayscale(0%);
 }
 
 .gmat-profile-sec-7 .gmat-sec-7-container {
@@ -553,7 +564,7 @@ body,
 .p-1 {
     font-size: 2.8vw;
     font-weight: 500;
-    color: #936bc7;
+    color: #936BC7;
 }
 
 .first {
@@ -582,48 +593,47 @@ body,
 .p-4 {
     font-size: 3.8vw;
     font-weight: 600;
-    color: #891049;
+    color: #DA8E63;
 }
 
 .p-5 {
     font-size: 2.5vw;
-    color: #6dcabf;
+    color: #6DCABF;
     position: relative;
-    top: 1vw;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .first-2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     position: relative;
     top: -3.5vw;
     gap: 1vw;
 }
 
 .p-6 {
-    font-weight: 600;
-    color: #6dcabf;
+    font-weight: 700;
+    color: #6DCABF;
     font-size: 1.5vw;
 }
 
 .p-7 {
-    font-weight: 600;
+    font-weight: 700;
     color: #579060;
     font-size: 1.4vw;
 }
 
 .p-8 {
     font-weight: 800;
-    color: #ce2c78;
+    color: #7235C4;
     font-size: 4vw;
     position: relative;
     top: -0.5vw;
 }
 
 .p-9 {
-    color: #a8aa37;
+    color: #A8AA37;
     font-size: 2vw;
     position: relative;
     top: -1vw;
@@ -631,7 +641,7 @@ body,
 }
 
 .p-10 {
-    color: #da8e63;
+    color: #DA8E63;
     font-size: 2vw;
     position: relative;
     top: -1vw;
@@ -639,7 +649,7 @@ body,
 }
 
 .p-11 {
-    color: #6dcabf;
+    color: #6DCABF;
     font-size: 2.2vw;
     position: relative;
     top: -2vw;
@@ -647,13 +657,13 @@ body,
 }
 
 .p-12 {
-    color: #891049;
+    color: #6D31BF;
     font-size: 2.4vw;
     font-weight: 700;
 }
 
 .p-13 {
-    color: #da8e63;
+    color: #DA8E63;
     font-size: 2.2vw;
     position: relative;
     top: -2vw;
@@ -668,7 +678,7 @@ body,
 }
 
 .p-15 {
-    color: #936bc7;
+    color: #936BC7;
     font-size: 2vw;
     font-weight: 500;
 }
@@ -711,23 +721,62 @@ img.second {
     position: relative;
 }
 
+.gmat-sec-4-cont-form #check-box {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #682CBA;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.input-box:checked::before {
+    content: "\2713";
+    position: absolute;
+    background: #682CBA;
+    font-size: 16px;
+    color: #fff;
+    width: 20px;
+    top: 0;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: translate(5%, 0%);
+    border-radius: 5px;
+}
+
+.input-box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 @keyframes fadeInRight {
     0% {
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateY(100px);
     }
 
     100% {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
 @keyframes fadeInTop {
     0% {
         opacity: 0;
-        transform: translateY(-50px);
+        transform: translateY(-100px);
     }
 
     100% {
@@ -739,12 +788,12 @@ img.second {
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateY(100px);
     }
 
     100% {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
@@ -1298,7 +1347,7 @@ img.second {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 4rem;
+    padding: 0.8rem 4rem;
 }
 
 .gmat-header .header-cols .nav-content {
@@ -1308,11 +1357,11 @@ img.second {
 }
 
 .gmat-header .header-cols .nav-content a {
-    font-size: 1.1vw;
+    font-size: 1vw;
     font-weight: 700;
     color: #ffffffb2;
     cursor: pointer;
-    padding-right: 3rem;
+    padding-right: 3.5rem;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -1323,11 +1372,12 @@ img.second {
 
 .gmat-header .header-cols .nav-content .btn-col .button {
     background: #15baa6;
-    border: solid 1px #ffffff;
-    border-radius: 7px;
-    padding: 0.2rem 1rem;
+    /* border: solid 1px #ffffff; */
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
     cursor: pointer;
     transition: 0.3s;
+    width: 8vw;
 }
 
 .gmat-header .header-cols .nav-content .btn-col .button:hover,
@@ -1358,8 +1408,11 @@ img.second {
 /* Section 1 */
 .gmat-sec-1 {
     padding: 3rem 2rem;
-    background: linear-gradient(167deg, #682cba 0%, #4a1297 100%);
+    /* background: linear-gradient(167deg, #682cba 0%, #4a1297 100%); */
+    background-image: url("./Assets/sec-1-back-img.svg");
     padding-top: 5rem;
+    background-size: cover;
+    background-position: center;
 }
 
 .gmat-sec-1 .sec-1-cols {
@@ -1421,7 +1474,7 @@ img.second {
 /* Marquee Section */
 .marquee-sec {
     background: #c197fbad;
-    padding: 1vw 0;
+    padding: 0.5vw 0;
 }
 
 .marquee-sec .marquee-sec-cols {
@@ -1435,7 +1488,7 @@ img.second {
 }
 
 .marquee-sec .marquee-sec-cols .content-col {
-    width: 75%;
+    width: 90%;
 }
 
 .marquee-sec .marquee-sec-cols .content-col marquee {
@@ -1559,8 +1612,8 @@ img.second {
 
 .gmat-sec-3 .sec-3-cols .video-col {
     background-image: url("./Assets/video-back-img.png");
-    background-size: contain;
-    background-position: center;
+    background-size: 37vw;
+    background-position: top center;
     background-repeat: no-repeat;
     width: 50%;
     text-align: center;
@@ -1568,8 +1621,8 @@ img.second {
 
 .gmat-sec-3 .sec-3-cols .video-col iframe {
     width: 35vw;
-    height: 40vh;
-    margin-top: 3rem;
+    height: 42vh;
+    margin-top: 4rem;
     border-radius: 13px;
 }
 
@@ -1649,22 +1702,19 @@ img.second {
 
 .gmat-sec-4 .gmat-sec-4-cont-form form .check-box {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     align-items: center;
-    padding-top: 1.5rem;
 }
 
-.gmat-sec-4 .gmat-sec-4-cont-form form .check-box input[type="checkbox"] {
-    width: 20px;
-}
 
 .gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
-    line-height: 2rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     text-transform: capitalize;
 }
 
@@ -1687,8 +1737,79 @@ img.second {
     background: var(--secondary-clr, #15baa6);
 }
 
+/* Popup Styles */
+.popups {
+    z-index: 99;
+    position: relative;
+}
+
+.firstpopup {
+    display: none;
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(48, 48, 48, 0.68) 100%);
+}
+
+.popup-1-cols {
+    margin: 2rem auto 1.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 0px -8px 39px 0px rgba(0, 0, 0, 0.22);
+}
+
+.popup-1-cols .content {
+    display: flex;
+    align-items: center;
+}
+
+.popup-1-cols .content h5 {
+    color: #fff;
+    font-size: 1.4vw;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+    padding-right: 2rem;
+}
+
+.popup-1-cols .content img {
+    padding-right: 1rem;
+}
+
+.popup-1-cols .btn-col {
+    text-align: center;
+}
+
+.popup-1-cols .btn-col button {
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1.3rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    background: var(--secondary-clr, #15baa6);
+}
+
 /* -----------**************Tab-View***************----------------- */
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    /* popup */
+    .popup-1-cols {
+        width: 80%;
+    }
 
     /* Tab Hiddens */
     .mob-break {
@@ -1705,8 +1826,12 @@ img.second {
     }
 
     .gmat-header .header-cols .nav-content a {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         padding-right: 1.5rem;
+    }
+
+    .gmat-header .header-cols .nav-content .btn-col .button {
+        width: 13vw;
     }
 
     .gmat-header .header-cols .nav-content .btn-col button {
@@ -1722,7 +1847,7 @@ img.second {
     /* Section - 1 */
     .gmat-sec-1 .sec-1-cols .img-col img {
         width: 40vw;
-        height: 35vh;
+        /* height: 35vh;  */
     }
 
     /* marquee sec */
@@ -1731,8 +1856,8 @@ img.second {
   } */
 
     .marquee-sec .marquee-sec-cols .content-col img {
-        margin-right: 0;
-        width: 68%;
+        /* margin-right: 0;
+    width: 68%; */
     }
 
     /* Section -3  */
@@ -1740,11 +1865,19 @@ img.second {
         padding: 2rem;
     }
 
+    .gmat-sec-3 .sec-3-cols .video-col {
+        background-size: 45vw;
+    }
+
     .gmat-sec-3 .sec-3-cols .video-col iframe {
-        width: 44vw;
-        height: 19vh;
+        width: 42vw;
+        height: 18vh;
         margin-top: 3rem;
         border-radius: 13px;
+    }
+
+    .gmat-sec-3 .sec-3-cols .content-col .btn-col {
+        border-radius: 7px;
     }
 
     /* Section -  4 */
@@ -1791,7 +1924,6 @@ img.second {
 
     .gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
         font-size: 0.8rem;
-        padding-left: 0.5rem;
     }
 
     .gmat-sec-4 .gmat-sec-4-cont-form form .btn-col {
@@ -1809,6 +1941,41 @@ img.second {
 /* -----------**************Mobile-View***************----------------- */
 
 @media (max-width: 767px) {
+    .gmat-sec-4 .gmat-sec-4-cont-form form .check-box {
+        width: 100%;
+        margin-top: 5vw;
+    }
+
+    /* popup */
+
+    .popup-1-cols .content {
+        width: 65%;
+    }
+
+    .popup-1-cols .btn-col {
+        width: 35%;
+    }
+
+    .firstpopup .popup-1-cols {
+        flex-direction: row;
+        gap: 3vw;
+        margin: 2rem auto 1rem;
+        width: 80%;
+    }
+
+    .firstpopup .popup-1-cols h5 {
+        font-size: 3vw;
+        padding: 0px;
+    }
+
+    .firstpopup .popup-1-cols .btn-col button {
+        font-size: 3.2vw;
+        padding: 2vw 5vw;
+    }
+
+    .popup-1-cols .content {
+        display: initial;
+    }
 
     /* enable on mobile */
     .header-cols .mobile-views {
@@ -1875,6 +2042,7 @@ img.second {
     .gmat-header .header-cols .nav-content .btn-col .button {
         background: none;
         border: none;
+        width: 30vw;
     }
 
     .gmat-header .header-cols .nav-content .btn-col .button i {
@@ -1911,7 +2079,7 @@ img.second {
 
     .gmat-sec-1 .sec-1-cols .img-col img {
         width: 90vw;
-        height: 50vh;
+        /* height: 50vh; */
     }
 
     .gmat-sec-1 .sec-1-cols .head-cont-col .head-col h3 {
@@ -2000,6 +2168,7 @@ img.second {
 
     .gmat-sec-3 .sec-3-cols .video-col {
         background-position: bottom;
+        background-size: 88vw;
         background-position-y: 124px;
         width: 100%;
         text-align: center;
@@ -2014,7 +2183,7 @@ img.second {
     }
 
     .gmat-sec-3 .sec-3-cols .video-col iframe {
-        width: 86vw;
+        width: 82vw;
         height: 27vh;
         margin-top: 0rem;
         border-radius: 8px;

@@ -14,9 +14,66 @@
         rel="stylesheet" />
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
     <!-- carousel -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2629680710613698');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=2629680710613698&ev=PageView&noscript=1"></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 723316378 -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-723316378"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('set', 'linker', {
+            domains: ['greprep.thecareerlabs.com', 'thecareerlabs.com'],
+        });
+        gtag('js', new Date());
+        gtag('config', 'AW-723316378');
+    </script>
+    <!-- Event snippet for Button Click Lead Submission conversion page -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') { window.location = url; }
+            };
+            gtag('event', 'conversion', { 'send_to': 'AW-723316378/qDRVCIvX5ocCEJrd89gC', 'event_callback': callback });
+            return false;
+        }</script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KZN2JWSL09"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-KZN2JWSL09");
+    </script>
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "i13rtwdild");
+    </script>
 </head>
 
 <body>
@@ -93,28 +150,21 @@
                 <h5>Top GMAT Scorers :</h5>
             </div>
             <div class="content-col">
-                <div class="scroll-parent">
-                    <div class="scroll-element primary">
-                        <div class="slide">
-                            <img src="Assets/marque-img.png" alt="marquee-img" loading="lazy" />
-                        </div>
-                        <div class="slide">
-                            <img src="Assets/marque-img-2.png" alt="marquee-img" loading="lazy" />
-                        </div>
-                        <div class="slide">
-                            <img src="Assets/marque-img-3.png" alt="marquee-img" loading="lazy" />
-                        </div>
-                        <div class="slide">
-                            <img src="Assets/marque-img-4.png" alt="marquee-img" loading="lazy" />
-                        </div>
-                        <div class="slide">
-                            <img src="Assets/marque-img-5.png" alt="marquee-img" loading="lazy" />
-                        </div>
-                        <div class="slide">
-                            <img src="Assets/marque-img-6.png" alt="marquee-img" loading="lazy" />
-                        </div>
-                    </div>
-                </div>
+                <!-- <div class="scroll-parent"> -->
+                <marquee>
+                    <img src="Assets/marque-img.png" alt="marquee-img" loading="lazy" />
+
+                    <img src="Assets/marque-img-2.png" alt="marquee-img" loading="lazy" />
+
+                    <img src="Assets/marque-img-3.png" alt="marquee-img" loading="lazy" />
+
+                    <img src="Assets/marque-img-4.png" alt="marquee-img" loading="lazy" />
+
+                    <img src="Assets/marque-img-5.png" alt="marquee-img" loading="lazy" />
+
+                    <img src="Assets/marque-img-6.png" alt="marquee-img" loading="lazy" />
+                </marquee>
+                <!-- </div> -->
             </div>
         </div>
     </section>
@@ -133,10 +183,10 @@
                         <div class="sec-2-inner-1">
                             <h3>Dream GMAT Score:</h3>
                             <div class="sec-2-inner-split">
-                                <h2 id="value1" class="score-number">640</h2>
+                                <h2 id="value1" class="score-number">630</h2>
                                 <h2>800</h2>
                             </div>
-                            <input type="range" id="slider-1" class="bar" min="600" max="800" step="1" value="630">
+                            <input type="range" id="slider-1" class="bar" min="600" max="800" step="" value="630">
                         </div>
                         <div class="sec-2-inner-1">
                             <h3>Best Preparation Strategy:</h3>
@@ -222,7 +272,7 @@
                         </div>
                     </div>
                     <div class="check-box">
-                        <input id="check-box" type="checkbox" class="input-box" /><label>Receive Email Updates On
+                        <input id="check-box" type="checkbox" class="input-box" /> <label>Receive Email Updates On
                             <b>Masterclasses, Best Offers, Free Resources</b> & More.</label>
                     </div>
                     <input type="hidden" id="gclid_field_1" name="gclid_field_1" value="" />
@@ -757,33 +807,33 @@
                 class="gre-purple-color">Online GMAT Preparation</span></h1>
         <div class="all-para">
             <div class="first">
-                <p class="p-1">GMAT test prep online</p>
+                <p class="p-1">GMAT Prep</p>
                 <p class="p-2">CareerLabs GMAT</p>
             </div>
             <div class="first">
-                <p class="p-3">GMAT study material</p>
-                <p class="p-4">GMAT course</p>
-                <p class="p-5">GMAT study</p>
+                <p class="p-3">GMAT syllabus</p>
+                <p class="p-4">GMAT Online</p>
+                <p class="p-5">Coaching for GMAT</p>
             </div>
             <div class="first">
                 <div class="first-2">
-                    <p class="p-6">GMAT Coaching</p>
-                    <p class="p-7">GMAT test</p>
+                    <p class="p-6">GMAT online coaching</p>
+                    <p class="p-7">GMAT exam</p>
                 </div>
                 <p class="p-8">GMAT Preparation</p>
-                <p class="p-9">GMAT classes</p>
+                <p class="p-9">GMAT online</p>
             </div>
             <div class="first">
-                <p class="p-10">GMAT Training online</p>
-                <p class="p-11">GMAT preparation for beginners</p>
+                <p class="p-10">CareerLabs GMAT fees</p>
+                <p class="p-11">GMAT preparation guide</p>
             </div>
             <div class="first">
-                <p class="p-12">GMAT Exam pattern</p>
-                <p class="p-13">GMAT Training</p>
+                <p class="p-12">GMAT classes online</p>
+                <p class="p-13">GMAT mock test</p>
             </div>
             <div class="first">
                 <p class="p-14">How to prepare for GMAT</p>
-                <p class="p-15">How to prepare for GMAT</p>
+                <p class="p-15">GMAT Prep Resource</p>
             </div>
         </div>
         <!-- <div class="section-8-width">
@@ -804,9 +854,72 @@
             </div>
         </div> -->
     </section>
+    <!-- Popup Section -->
+    <div class="popups">
+        <div class="firstpopup" id="popup-1">
+            <div class="popup-1-cols">
+                <div class="content">
+                    <h5><b>Customised GMAT Prep</b> For <b>top Scores!</b></h5>
+                    <img class="mobile-hide"
+                        src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/icon-1.png" alt="icon"
+                        loading="lazy" /><img class="mobile-hide"
+                        src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/icon1.png" alt="icon"
+                        loading="lazy" />
+                </div>
+                <div class="btn-col">
+                    <a href="#contact-form"><button>Start Now!</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="firstpopup" id="popup-2">
+            <div class="popup-1-cols">
+                <div class="content">
+                    <h5>Top Admits = 20% <b>GMAT Score</b> & 80% <b>Profile!</b></h5>
+                    <img class="mobile-hide"
+                        src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/icon-2.png" alt="icon"
+                        loading="lazy" /><img class="mobile-hide"
+                        src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/icon2.png" alt="icon"
+                        loading="lazy" />
+                </div>
+                <div class="btn-col">
+                    <a href="#contact-form"><button>Start Now!</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="firstpopup" id="popup-3">
+            <div class="popup-1-cols">
+                <div class="content">
+                    <h5><b>Admissions Consulting</b> For <b>MBA/MiM/MEM!</b></h5>
+                    <img class="mobile-hide"
+                        src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/icon-3.png" alt="icon"
+                        loading="lazy" /><img class="mobile-hide"
+                        src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/icon3.png" alt="icon"
+                        loading="lazy" />
+                </div>
+                <div class="btn-col">
+                    <a href="#contact-form"><button>Start Now!</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="firstpopup" id="popup-4">
+            <div class="popup-1-cols">
+                <div class="content">
+                    <h5>They Landed <b>Best Admits. Your Turn.</b></h5>
+                    <img class="mobile-hide"
+                        src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/icon-4.png" alt="icon"
+                        loading="lazy" /><img class="mobile-hide"
+                        src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/icon4.png" alt="icon"
+                        loading="lazy" />
+                </div>
+                <div class="btn-col">
+                    <a href="#contact-form"><button>Start Now!</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- footer section -->
     <footer>
-        <div style="background: #FFD9EF;
+        <div style="background: #F3E9FF;
         padding: 1%;
         font-family: poppins;
         text-align: center;
@@ -884,6 +997,65 @@
         }
     </script>
     <script>
+        //  Scroll Popup Function
+        window.onscroll = function () {
+            scrollFunction();
+        };
+        function scrollFunction() {
+            if (
+                document.documentElement.scrollTop >= 160 &&
+                document.documentElement.scrollTop <= 1000
+            ) {
+                document.querySelector("#popup-1").style.display = "block";
+                document.querySelector("#popup-2").style.display = "none";
+                document.querySelector("#popup-3").style.display = "none";
+                document.querySelector("#popup-4").style.display = "none";
+            } else if (
+                document.documentElement.scrollTop >= 1001 &&
+                document.documentElement.scrollTop <= 1600
+            ) {
+                document.querySelector("#popup-2").style.display = "block";
+                document.querySelector("#popup-1").style.display = "none";
+                document.querySelector("#popup-3").style.display = "none";
+                document.querySelector("#popup-4").style.display = "none";
+            } else if (
+                document.documentElement.scrollTop >= 1601 &&
+                document.documentElement.scrollTop <= 2100
+            ) {
+                document.querySelector("#popup-4").style.display = "none";
+                document.querySelector("#popup-3").style.display = "block";
+                document.querySelector("#popup-2").style.display = "none";
+                document.querySelector("#popup-1").style.display = "none";
+            } else {
+                document.querySelector("#popup-1").style.display = "none";
+                document.querySelector("#popup-2").style.display = "none";
+                document.querySelector("#popup-3").style.display = "none";
+                document.querySelector("#popup-4").style.display = "none";
+            }
+            let screen = window.screen;
+            if (screen.width <= 767) {
+                if (
+                    document.documentElement.scrollTop >= 2101 &&
+                    document.documentElement.scrollTop <=
+                    document.body.scrollHeight - 900
+                ) {
+                    document.querySelector("#popup-1").style.display = "none";
+                    document.querySelector("#popup-2").style.display = "none";
+                    document.querySelector("#popup-3").style.display = "none";
+                    document.querySelector("#popup-4").style.display = "block";
+                }
+            } else if (screen.width >= 768)
+                if (
+                    document.documentElement.scrollTop >= 2101 &&
+                    document.documentElement.scrollTop <=
+                    document.body.scrollHeight - 700
+                ) {
+                    document.querySelector("#popup-1").style.display = "none";
+                    document.querySelector("#popup-2").style.display = "none";
+                    document.querySelector("#popup-3").style.display = "none";
+                    document.querySelector("#popup-4").style.display = "block";
+                }
+        }
         //footer content
         function footerContent() {
             document.getElementById("footer-content").innerText = `©  ${new Date().getFullYear()} CareerLabs Technologies Pvt Ltd`;
@@ -916,10 +1088,12 @@
             else if (rangeSlider.value <= 2.5) {
                 selectedValue3.textContent = 720;
                 rangeSlider3.value = 720;
+                selectedValue.textContent = 2.5
             }
             else {
                 selectedValue3.textContent = 770;
                 rangeSlider3.value = 770;
+                selectedValue.textContent = 4
             }
         }
         function updateSlider1() {
@@ -933,19 +1107,24 @@
             if (rangeSlider.value <= 630) {
                 selectedValue2.textContent = 0.5;
                 rangeSlider2.value = 0.5;
+                selectedValue.textContent = 630
                 console.log("pop");
             }
             else if (rangeSlider.value <= 650) {
                 selectedValue2.textContent = 1;
                 rangeSlider2.value = 1;
+                selectedValue.textContent = 650
             }
             else if (rangeSlider.value <= 720) {
                 selectedValue2.textContent = 2.5;
                 rangeSlider2.value = 2.5;
+                selectedValue.textContent = 720
             }
             else {
                 selectedValue2.textContent = 4;
                 rangeSlider2.value = 4;
+                selectedValue.textContent = 770
+                rangeSlider.value = 770
             }
 
         }
@@ -959,8 +1138,11 @@
             coverflowEffect: {
                 rotate: 0,
                 stretch: 0,
-                depth: 100,
+                depth: 99.5,
                 modifier: 2.5,
+            },
+            autoplay: {
+                delay: 4000,
             },
             pagination: {
                 el: '.swiper-pagination',
