@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="https://gmat-prep.netlify.app/Assets/images/favicon.ico" />
     <title>GMAT - CareerLabs</title>
     <link rel="stylesheet" href="gmat.css" />
@@ -18,22 +18,34 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <!-- Facebook Pixel Code -->
     <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        !(function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod
+                    ? n.callMethod.apply(n, arguments)
+                    : n.queue.push(arguments);
             };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '2629680710613698');
-        fbq('track', 'PageView');
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = "2.0";
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+        })(
+            window,
+            document,
+            "script",
+            "https://connect.facebook.net/en_US/fbevents.js"
+        );
+        fbq("init", "2629680710613698");
+        fbq("track", "PageView");
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=2629680710613698&ev=PageView&noscript=1"></noscript>
+    <noscript><img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=2629680710613698&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
     <!-- Global site tag (gtag.js) - Google Ads: 723316378 -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-723316378"></script>
@@ -42,21 +54,27 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-        gtag('set', 'linker', {
-            domains: ['greprep.thecareerlabs.com', 'thecareerlabs.com'],
+        gtag("set", "linker", {
+            domains: ["greprep.thecareerlabs.com", "thecareerlabs.com"],
         });
-        gtag('js', new Date());
-        gtag('config', 'AW-723316378');
+        gtag("js", new Date());
+        gtag("config", "AW-723316378");
     </script>
     <!-- Event snippet for Button Click Lead Submission conversion page -->
     <script>
         function gtag_report_conversion(url) {
             var callback = function () {
-                if (typeof (url) != 'undefined') { window.location = url; }
+                if (typeof url != "undefined") {
+                    window.location = url;
+                }
             };
-            gtag('event', 'conversion', { 'send_to': 'AW-723316378/qDRVCIvX5ocCEJrd89gC', 'event_callback': callback });
+            gtag("event", "conversion", {
+                send_to: "AW-723316378/qDRVCIvX5ocCEJrd89gC",
+                event_callback: callback,
+            });
             return false;
-        }</script>
+        }
+    </script>
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KZN2JWSL09"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -69,9 +87,16 @@
     </script>
     <script type="text/javascript">
         (function (c, l, a, r, i, t, y) {
-            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
-            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
-            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+            c[a] =
+                c[a] ||
+                function () {
+                    (c[a].q = c[a].q || []).push(arguments);
+                };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
         })(window, document, "clarity", "script", "i13rtwdild");
     </script>
 </head>
@@ -150,21 +175,24 @@
                 <h5>Top GMAT Scorers :</h5>
             </div>
             <div class="content-col">
-                <!-- <div class="scroll-parent"> -->
-                <marquee>
-                    <img src="Assets/marque-img.png" alt="marquee-img" loading="lazy" />
-
-                    <img src="Assets/marque-img-2.png" alt="marquee-img" loading="lazy" />
-
-                    <img src="Assets/marque-img-3.png" alt="marquee-img" loading="lazy" />
-
-                    <img src="Assets/marque-img-4.png" alt="marquee-img" loading="lazy" />
-
-                    <img src="Assets/marque-img-5.png" alt="marquee-img" loading="lazy" />
-
-                    <img src="Assets/marque-img-6.png" alt="marquee-img" loading="lazy" />
-                </marquee>
-                <!-- </div> -->
+                <div class="logos">
+                    <div class="logos-slide">
+                        <img src="Assets/marque-img.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-2.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-3.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-4.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-5.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-6.png" alt="marquee-img" loading="lazy" />
+                    </div>
+                    <div class="logos-slide">
+                        <img src="Assets/marque-img.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-2.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-3.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-4.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-5.png" alt="marquee-img" loading="lazy" />
+                        <img src="Assets/marque-img-6.png" alt="marquee-img" loading="lazy" />
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -176,9 +204,12 @@
                     <img src="Assets/sec-2-image.png" alt="Image" width="100%" />
                 </div>
                 <div class="sec-2-col-2">
-                    <h1 class="head-h1"><span class="gre-purple-color">Let’s Begin</span> By <span
-                            class="gre-purple-color">Creating</span> A<br> <span class="gre-purple-color">Customised
-                            Study Plan</span> For <span class="gre-purple-color">You.</span></h1>
+                    <h1 class="head-h1">
+                        <span class="gre-purple-color">Let’s Begin</span> By
+                        <span class="gre-purple-color">Creating</span> A<br />
+                        <span class="gre-purple-color">Customised Study Plan</span> For
+                        <span class="gre-purple-color">You.</span>
+                    </h1>
                     <div class="sec-2-inner">
                         <div class="sec-2-inner-1">
                             <h3>Dream GMAT Score:</h3>
@@ -186,19 +217,21 @@
                                 <h2 id="value1" class="score-number">630</h2>
                                 <h2>800</h2>
                             </div>
-                            <input type="range" id="slider-1" class="bar" min="600" max="800" step="" value="630">
+                            <input type="range" id="slider-1" class="bar" min="600" max="800" step="" value="630" />
                         </div>
                         <div class="sec-2-inner-1">
                             <h3>Best Preparation Strategy:</h3>
                             <div class="sec-2-inner-split">
                                 <span class="sec-2-inner-flex">
-                                    <h2 id="value2" class="score-number">0.5</h2><span>Hrs/day</span>
+                                    <h2 id="value2" class="score-number">0.5</h2>
+                                    <span>Hrs/day</span>
                                 </span>
                                 <span class="sec-2-inner-flex">
-                                    <h2>4</h2><span>Hrs/day</span>
+                                    <h2>6</h2>
+                                    <span>Hrs/day</span>
                                 </span>
                             </div>
-                            <input type="range" id="slider-2" class="bar" min="0" max="4" step="0.5" value="0.5">
+                            <input type="range" id="slider-2" class="bar" min="0" max="6" step="0.5" value="0.5" />
                         </div>
                     </div>
                 </div>
@@ -206,7 +239,7 @@
         </div>
     </section>
     <!-- Section - 3 -->
-    <section class="gmat-sec-3">
+    <section class="gmat-sec-3" id="Fall">
         <div class="sec-3-cols">
             <div class="content-col">
                 <h3 class="Desktop-views">
@@ -232,7 +265,7 @@
                     For The
                     <span>Last Minute!</span>
                 </h3>
-                <iframe id="video1" src="https://www.youtube.com/embed/ahhCnTpF2cI" frameborder="0"
+                <iframe id="video1" src="https://player.vimeo.com/video/848747092" frameborder="0"
                     allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
@@ -242,7 +275,8 @@
         <div class="width-for-sec">
             <h3 class="head-h1">
                 <span class="gre-purple-color">Stop</span> Waiting. Start
-                <span class="gre-purple-color">Your B-School Journey</span> Right Away!
+                <span class="gre-purple-color">Your B-School Journey</span> Right
+                Away!
             </h3>
             <div class="gmat-sec-4-cont-form">
                 <form id="reg-form" onsubmit="onSubmitHandler(event); gtag_report_conversion();" name="FORM 0"
@@ -272,7 +306,8 @@
                         </div>
                     </div>
                     <div class="check-box">
-                        <input id="check-box" type="checkbox" class="input-box" /> <label>Receive Email Updates On
+                        <input id="check-box" type="checkbox" class="input-box" />
+                        <label>Receive Email Updates On
                             <b>Masterclasses, Best Offers, Free Resources</b> & More.</label>
                     </div>
                     <input type="hidden" id="gclid_field_1" name="gclid_field_1" value="" />
@@ -294,18 +329,21 @@
                         <img class="question first" src="Assets/650-mark.png" alt="Image" />
                         <img class="question" src="Assets/question.png" alt="Image" />
                         <img class="question second" src="Assets/720-mark.png" alt="Image" />
-
                     </div>
                     <img src="Assets/sec-3-image.png" alt="Image" />
                 </div>
                 <div class="section-3-col-1">
-                    <h1 class="head-h1">A <span class="gre-purple-color">Top GMAT Score</span> Alone Is <span
-                            class="gre-purple-color">Not Enough.<br> feeling Surprised?</span>
+                    <h1 class="head-h1">
+                        A <span class="gre-purple-color">Top GMAT Score</span> Alone Is
+                        <span class="gre-purple-color">Not Enough.<br />
+                            feeling Surprised?</span>
                     </h1>
                     <p class="mobilepara">
-                        Without A Compelling <span class="gre-purple-color">Candidate Profile,</span><br>
-                        Getting Into Your <span class="gre-purple-color">Dream B-School</span> Will Be A <span
-                            class="gre-purple-color">Hard Nut To Crack</span>
+                        Without A Compelling
+                        <span class="gre-purple-color">Candidate Profile,</span><br />
+                        Getting Into Your
+                        <span class="gre-purple-color">Dream B-School</span> Will Be A
+                        <span class="gre-purple-color">Hard Nut To Crack</span>
                     </p>
                     <p class="section-3-inner-p">Elements Of A Compelling Profile</p>
                     <div class="section-gre-3-part">
@@ -329,13 +367,17 @@
         </div>
     </section>
     <!-- section-6 -->
-    <section class="gmat-sec-6">
+    <section class="gmat-sec-6" id="admissions">
         <div class="gmat-background-color">
             <div class="gmat-sec-6-width">
-                <h1 class="head-h1"><span class="gre-purple-color">How</span> Do <span class="gre-purple-color">We Help
-                        You</span><br> Get Into <span class="gre-purple-color">Top B-School Programs</span>?</h1>
+                <h1 class="head-h1">
+                    <span class="gre-purple-color">How</span> Do
+                    <span class="gre-purple-color">We Help You</span><br />
+                    Get Into
+                    <span class="gre-purple-color">Top B-School Programs</span>?
+                </h1>
                 <div class="gmat-sec-6-innner-card-split">
-                    <div class="gmat-sec-6-card-1">
+                    <div class="gmat-sec-6-card-1 mobile-background-color-card">
                         <div class="gmat-sec-6-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="5vw" height="5vw" viewBox="0 0 101 108"
                                 fill="none">
@@ -366,13 +408,16 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <p>Profile Gap Analysis &<br> Recalibration</p>
+                            <p>
+                                Profile Gap Analysis &<br />
+                                Recalibration
+                            </p>
                         </div>
                     </div>
                     <div class="gmat-sec-6-card-2">
                         <div class="gmat-sec-6-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="7vw" height="7vw" viewBox="0 0 160 160"
-                                fill="none" style="margin-top: -1vw;">
+                                fill="none" style="margin-top: -1vw">
                                 <path
                                     d="M107.722 21.5002H74.873C72.9687 21.5002 71.0644 22.4814 69.6362 23.9532C68.208 25.4249 67.2559 27.3873 67.2559 29.3496V92.1443C67.2559 94.1067 68.208 96.069 69.6362 97.5408C71.0644 99.0125 72.9687 99.9937 74.873 99.9937H121.528C123.432 99.9937 125.336 99.0125 126.765 97.5408C128.193 96.069 129.145 94.1067 129.145 92.1443V43.5765L107.722 21.5002Z"
                                     stroke="url(#paint0_linear_80_123)" stroke-width="9" stroke-linecap="round"
@@ -411,13 +456,13 @@
                                     </linearGradient>
                                 </defs>
                             </svg>
-                            <p>B-School Shortlisting <br>& Documentation</p>
+                            <p>B-School Shortlisting <br />& Documentation</p>
                         </div>
                     </div>
-                    <div class="gmat-sec-6-card-1">
+                    <div class="gmat-sec-6-card-1 mobile-1-grid mobile-background-color-card">
                         <div class="gmat-sec-6-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="8vw" height="8vw" viewBox="0 0 161 160"
-                                fill="none" style="margin-top: -1vw;">
+                                fill="none" style="margin-top: -1vw">
                                 <path
                                     d="M80.6909 19.375L78.5009 20.47L28.5059 45L25.6909 46.405V55H135.691V46.405L132.876 45L82.8759 20.47L80.6909 19.375ZM80.6909 30.625L110.066 45H51.3159L80.6909 30.625ZM35.6909 60V110H30.6909V120H130.691V110H125.691V60H115.691V110H105.691V60H95.6909V110H85.6909V60H75.6909V110H65.6909V60H55.6909V110H45.6909V60H35.6909ZM20.6909 125V135H140.691V125H20.6909Z"
                                     fill="url(#paint0_linear_80_91)" />
@@ -429,10 +474,13 @@
                                     </linearGradient>
                                 </defs>
                             </svg>
-                            <p>Program & College Fit<br> Discussions</p>
+                            <p>
+                                Program & College Fit<br />
+                                Discussions
+                            </p>
                         </div>
                     </div>
-                    <div class="gmat-sec-6-card-2">
+                    <div class="gmat-sec-6-card-2 mobile-2-grid mobile-background-color-card">
                         <div class="gmat-sec-6-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="7vw" height="7vw" viewBox="0 0 161 160"
                                 fill="none">
@@ -471,10 +519,13 @@
                                     </linearGradient>
                                 </defs>
                             </svg>
-                            <p>Application Editing For CVs,<br> Essays & LoRs</p>
+                            <p>
+                                Application Editing For CVs,<br />
+                                Essays & LoRs
+                            </p>
                         </div>
                     </div>
-                    <div class="gmat-sec-6-card-1">
+                    <div class="gmat-sec-6-card-1 mobile-3-grid">
                         <div class="gmat-sec-6-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="8vw" height="8vw" viewBox="0 0 160 160"
                                 fill="none">
@@ -499,13 +550,16 @@
                                     </linearGradient>
                                 </defs>
                             </svg>
-                            <p>Post Admit<br> Services</p>
+                            <p>
+                                Post Admit<br />
+                                Services
+                            </p>
                         </div>
                     </div>
-                    <div class="gmat-sec-6-card-2">
+                    <div class="gmat-sec-6-card-2 mobile-4-grid">
                         <div class="gmat-sec-6-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="4vw" height="4vw" viewBox="0 0 102 101"
-                                fill="none" style="position: relative;top: 2vw;">
+                                fill="none" style="position: relative; top: 2vw">
                                 <path
                                     d="M51.0775 10.7263C29.1289 10.7263 11.4204 28.4348 11.4204 50.3834C11.4204 72.3319 29.1289 90.0404 51.0775 90.0404C73.026 90.0404 90.7345 72.3319 90.7345 50.3834C90.7345 28.4348 73.026 10.7263 51.0775 10.7263ZM51.0775 85.0521C31.8725 85.0521 16.4087 69.5883 16.4087 50.3834C16.4087 31.1784 31.8725 15.7146 51.0775 15.7146C70.2824 15.7146 85.7462 31.1784 85.7462 50.3834C85.7462 69.5883 70.2824 85.0521 51.0775 85.0521Z"
                                     fill="url(#paint0_linear_80_140)" />
@@ -533,8 +587,10 @@
                                     </linearGradient>
                                 </defs>
                             </svg>
-                            <p>Scholarship/Financial Aid<br>
-                                Assistance</p>
+                            <p>
+                                Scholarship/Financial Aid<br />
+                                Assistance
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -542,9 +598,12 @@
         </div>
     </section>
     <!-- section -7 -->
-    <section class="gmat-sec-7">
-        <h1 class="head-h1">What <span class="gre-purple-color">Our Achievers</span> Have To <span
-                class="gre-purple-color">Speak</span><br> About <span class="gre-purple-color">Our Services</span></h1>
+    <section class="gmat-sec-7" id="achievers">
+        <h1 class="head-h1">
+            What <span class="gre-purple-color">Our Achievers</span> Have To
+            <span class="gre-purple-color">Speak</span><br />
+            About <span class="gre-purple-color">Our Services</span>
+        </h1>
         <section id="tranding">
             <div class="container">
                 <div class="swiper tranding-slider">
@@ -557,8 +616,11 @@
                                 </div>
                                 <img src="Assets/subashish.png" alt="Image" width="150" />
                                 <div class="gmat-carousel-inner">
-                                    <h1>Subashish</h1>
-                                    <p>Kellogg School of Management,<br> UNorthwestern</p>
+                                    <h1>Shubhashish</h1>
+                                    <p>
+                                        Kellogg School of Management,<br />
+                                        UNorthwestern
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -571,7 +633,7 @@
                                 <img src="Assets/manek.png" alt="Image" width="150" />
                                 <div class="gmat-carousel-inner">
                                     <h1>Manek</h1>
-                                    <p>Indian School of Business,<br>Hyderabad</p>
+                                    <p>Indian School of Business,<br />Hyderabad</p>
                                 </div>
                             </div>
                         </div>
@@ -584,7 +646,7 @@
                                 <img src="Assets/amirt.png" alt="Image" width="150" />
                                 <div class="gmat-carousel-inner">
                                     <h1>Amrit</h1>
-                                    <p>UC - Los Angeles,<br>US</p>
+                                    <p>UC - Los Angeles,<br />US</p>
                                 </div>
                             </div>
                         </div>
@@ -592,12 +654,15 @@
                             <div class="gmat-carousel-first">
                                 <div class="gmat-carousel-flex">
                                     <h4>GMAT</h4>
-                                    <h1>720</h1>
+                                    <h1>770</h1>
                                 </div>
                                 <img src="Assets/mohit.png" alt="Image" width="150" />
                                 <div class="gmat-carousel-inner">
                                     <h1>Mohit</h1>
-                                    <p>Indian School of Business,<br> Hyderabad</p>
+                                    <p>
+                                        Indian School of Business,<br />
+                                        Hyderabad
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -610,7 +675,10 @@
                                 <img src="Assets/aditi.png" alt="Image" width="150" />
                                 <div class="gmat-carousel-inner">
                                     <h1>Aditi M.</h1>
-                                    <p>Indian School of Business,<br> Hyderabad</p>
+                                    <p>
+                                        Indian School of Business,<br />
+                                        Hyderabad
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -623,7 +691,10 @@
                                 <img src="Assets/siddharth.png" alt="Image" width="150" />
                                 <div class="gmat-carousel-inner">
                                     <h1>Siddharth</h1>
-                                    <p>Kellogg School of Management,<br> UNorthwestern</p>
+                                    <p>
+                                        Kellogg School of Management,<br />
+                                        UNorthwestern
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -636,7 +707,10 @@
                                 <img src="Assets/pranjal.png" alt="Image" width="150" />
                                 <div class="gmat-carousel-inner">
                                     <h1>Pranjal</h1>
-                                    <p>Kellogg School of Management,<br> UNorthwestern</p>
+                                    <p>
+                                        Kellogg School of Management,<br />
+                                        UNorthwestern
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -676,95 +750,82 @@
                     <div id="carousel2">
                         <div class="item2">
                             <div class="google-col-2">
-                                <h1>Shilpa D.</h1>
-                                <h3>Teaching Quality - Too Good!</h3>
-                                <p class="mobile-hide">“CareerLabs' exceptional teaching quality and GRE program
-                                    <br>provided
-                                    invaluable knowledge,
-                                    expert guidance, and effective<br> test-taking strategies. I feel confident and
-                                    highly
-                                    recommend<br>
-                                    their services for GRE success.”
+                                <h1>Prasad K.</h1>
+                                <p class="mobile-hide">
+                                    "The GMAT experience was exceptional, covering a wide range
+                                    of topics with valuable data. The lectures on Verbal skills
+                                    were outstanding, offering invaluable tips and tricks for
+                                    mastery."
                                 </p>
-                                <p class="mobile-block">“CareerLabs' exceptional teaching quality and GRE program
-                                    provided
-                                    invaluable knowledge,
-                                    expert guidance, and effective test-taking strategies. I feel confident and
-                                    highly
-                                    recommend
-                                    their services for GRE success.”</p>
+                                <p class="mobile-block">
+                                    "The GMAT experience was exceptional, covering a wide range
+                                    of topics with valuable data. The lectures on Verbal skills
+                                    were outstanding, offering invaluable tips and tricks for
+                                    mastery."
+                                </p>
                                 <img src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/four-star.png"
                                     alt="Image" />
                             </div>
                         </div>
                         <div class="item2">
                             <div class="google-col-2">
-                                <h1>Keerthan N.</h1>
-                                <h3>Top-Notch GRE Coaching!</h3>
-                                <p class="mobile-hide">“CareerLabs excels in MS abroad admissions consulting and<br>
-                                    offers exceptional GRE coaching. Their guidance and support<br> helped me secure
-                                    admission to my dream program. Highly<br> recommended for top-notch assistance!”
+                                <h1>Hrishita G.</h1>
+                                <p class="mobile-hide">
+                                    "I had a positive overall experience enrolling in GMAT+ACS
+                                    services with Careerlabs. However, I felt that the
+                                    interaction with the faculty was somewhat limited, and the
+                                    email response time was also a bit slow."
                                 </p>
-                                <p class="mobile-block">“CareerLabs excels in MS abroad admissions consulting and
-                                    offers exceptional GRE coaching. Their guidance and support helped me secure
-                                    admission to my dream program. Highly recommended for top-notch assistance!”</p>
+                                <p class="mobile-block">
+                                    "I had a positive overall experience enrolling in GMAT+ACS
+                                    services with Careerlabs. However, I felt that the
+                                    interaction with the faculty was somewhat limited, and the
+                                    email response time was also a bit slow."
+                                </p>
                                 <img src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/five-star.png"
                                     alt="five-star-mage" />
                             </div>
                         </div>
                         <div class="item2">
                             <div class="google-col-2">
-                                <h1>Prashanth A.</h1>
-                                <h3>Great Experience @ CareerLabs</h3>
-                                <p class="mobile-hide">"My experience at CareerLabs was outstanding. Their GRE,
-                                    Profile<br> Builder & Admissions Consulting package, along with 6 months<br> of
-                                    edX
-                                    Courses, provided me with comprehensive support and<br> guidance. Highly
-                                    recommended
-                                    for a holistic approach to success!"
+                                <h1>Shania K.</h1>
+                                <p class="mobile-hide">
+                                    "The course design is excellent! I'm currently enrolled in
+                                    the GMAT and profile building program, and I'm highly
+                                    satisfied with my experience so far. I wholeheartedly
+                                    recommend it to anyone considering enrollment."
                                 </p>
-                                <p class="mobile-block">“"My experience at CareerLabs was outstanding. Their GRE,
-                                    Profile Builder & Admissions Consulting package, along with 6 months of edX
-                                    Courses, provided me with comprehensive support and guidance. Highly recommended
-                                    for a holistic approach to success!"</p>
+                                <p class="mobile-block">
+                                    "The course design is excellent! I'm currently enrolled in
+                                    the GMAT and profile building program, and I'm highly
+                                    satisfied with my experience so far. I wholeheartedly
+                                    recommend it to anyone considering enrollment."
+                                </p>
                                 <img src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/five-star.png"
                                     alt="Image" />
                             </div>
                         </div>
                         <div class="item2">
                             <div class="google-col-2">
-                                <h1>Anjith P.</h1>
-                                <h3>Impressive Support & Guidance</h3>
-                                <p class="mobile-hide">"CareerLabs exceeded my expectations with their GRE, IELTS,
-                                    and <br>Admissions Consulting package. Their exceptional support and<br>
-                                    guidance helped
-                                    me craft a strong MS application. Highly<br> recommended for comprehensive
-                                    assistance!"
+                                <h1>Aditya Y.</h1>
+                                <p class="mobile-hide">
+                                    "I highly recommend joining CareerLabs to kickstart your
+                                    study abroad journey, be it for GRE or GMAT. Their
+                                    well-organized services provide an excellent platform for
+                                    preparation. Remember, giving your 100% effort in practice
+                                    is crucial, whether with a consultant or any other
+                                    platform."
                                 </p>
-                                <p class="mobile-block">"CareerLabs exceeded my expectations with their GRE, IELTS,
-                                    and Admissions Consulting package. Their exceptional support and guidance helped
-                                    me craft a strong MS application. Highly recommended for comprehensive
-                                    assistance!"</p>
+                                <p class="mobile-block">
+                                    "I highly recommend joining CareerLabs to kickstart your
+                                    study abroad journey, be it for GRE or GMAT. Their
+                                    well-organized services provide an excellent platform for
+                                    preparation. Remember, giving your 100% effort in practice
+                                    is crucial, whether with a consultant or any other
+                                    platform."
+                                </p>
                                 <img src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/five-star.png"
                                     alt="five-star-image" />
-                            </div>
-                        </div>
-                        <div class="item2">
-                            <div class="google-col-2">
-                                <h1>Hemanth J.</h1>
-                                <h3>Multiple MS Admits @ CareerLabs</h3>
-                                <p class="mobile-hide">"CareerLabs' GRE Prep and Profile Building services were<br>
-                                    instrumental in my journey towards multiple MS admits. Their<br> helpful content
-                                    on
-                                    CV building and university shortlisting made a<br> significant impact. Highly
-                                    recommended for comprehensive support!"
-                                </p>
-                                <p class="mobile-block">"CareerLabs' GRE Prep and Profile Building services were
-                                    instrumental in my journey towards multiple MS admits. Their helpful content on
-                                    CV building and university shortlisting made a significant impact. Highly
-                                    recommended for comprehensive support!"</p>
-                                <img src="https://assets.thecareerlabs.com/landing_pages/gre/crack-gre-2023/five-star.png"
-                                    alt="Image" />
                             </div>
                         </div>
                     </div>
@@ -783,9 +844,10 @@
     <section class="gmat-profile-sec-7">
         <div class="gmat-sec-7-container">
             <h1 class="head-h1">
-                Pick Your <span class="gre-purple-color">Dream B-Schools</span> &<br />
-                <span class="gre-purple-color">CareerLabs</span> Will Have <span class="gre-purple-color">Your
-                    Back!</span>
+                Pick Your
+                <span class="gre-purple-color">Dream B-Schools</span> &<br />
+                <span class="gre-purple-color">CareerLabs</span> Will Have
+                <span class="gre-purple-color">Your Back!</span>
             </h1>
             <div class="gmat-sec-7-cols">
                 <img src="Assets/michigan.png" alt="GRADE-School" loading="lazy" />
@@ -796,44 +858,48 @@
                 <img src="Assets/usc.png" alt="GRADE-School" loading="lazy" />
                 <img src="Assets/adelaide.png" alt="GRADE-School" loading="lazy" />
                 <img src="Assets/isb.png" alt="GRADE-School" loading="lazy" />
-                <img src="Assets/rotman.png" alt="GRADE-School" loading="lazy" style="width: 12vw;" class="rotman" />
-                <img src="Assets/london.png" alt="GRADE-School" loading="lazy" style="width: 7vw;" class="london" />
+                <img src="Assets/rotman.svg" alt="GRADE-School" loading="lazy" style="width: 15vw" class="rotman" />
+                <img src="Assets/london.png" alt="GRADE-School" loading="lazy" style="width: 7vw" class="london" />
             </div>
         </div>
     </section>
     <!-- section -8  -->
     <section class="section-8-gre">
-        <h1 class="head-h1"><span class="gre-purple-color">Top Searches</span> For Your <span
-                class="gre-purple-color">Online GMAT Preparation</span></h1>
-        <div class="all-para">
-            <div class="first">
-                <p class="p-1">GMAT Prep</p>
-                <p class="p-2">CareerLabs GMAT</p>
-            </div>
-            <div class="first">
-                <p class="p-3">GMAT syllabus</p>
-                <p class="p-4">GMAT Online</p>
-                <p class="p-5">Coaching for GMAT</p>
-            </div>
-            <div class="first">
-                <div class="first-2">
-                    <p class="p-6">GMAT online coaching</p>
-                    <p class="p-7">GMAT exam</p>
+        <div class="section-8-gre-width">
+            <h1 class="head-h1">
+                <span class="gre-purple-color">Top Searches</span> For Your
+                <span class="gre-purple-color">Online GMAT Preparation</span>
+            </h1>
+            <div class="all-para">
+                <div class="first">
+                    <p class="p-1">GMAT Prep</p>
+                    <p class="p-2">CareerLabs GMAT</p>
                 </div>
-                <p class="p-8">GMAT Preparation</p>
-                <p class="p-9">GMAT online</p>
-            </div>
-            <div class="first">
-                <p class="p-10">CareerLabs GMAT fees</p>
-                <p class="p-11">GMAT preparation guide</p>
-            </div>
-            <div class="first">
-                <p class="p-12">GMAT classes online</p>
-                <p class="p-13">GMAT mock test</p>
-            </div>
-            <div class="first">
-                <p class="p-14">How to prepare for GMAT</p>
-                <p class="p-15">GMAT Prep Resource</p>
+                <div class="first">
+                    <p class="p-3">GMAT syllabus</p>
+                    <p class="p-4">GMAT Online</p>
+                    <p class="p-5">Coaching for GMAT</p>
+                </div>
+                <div class="first">
+                    <div class="first-2">
+                        <p class="p-6">GMAT online coaching</p>
+                        <p class="p-7">GMAT exam</p>
+                    </div>
+                    <p class="p-8">GMAT Preparation</p>
+                    <p class="p-9">GMAT online</p>
+                </div>
+                <div class="first">
+                    <p class="p-10">CareerLabs GMAT fees</p>
+                    <p class="p-11">GMAT preparation guide</p>
+                </div>
+                <div class="first">
+                    <p class="p-12">GMAT classes online</p>
+                    <p class="p-13">GMAT mock test</p>
+                </div>
+                <div class="first">
+                    <p class="p-14">How to prepare for GMAT</p>
+                    <p class="p-15">GMAT Prep resource</p>
+                </div>
             </div>
         </div>
         <!-- <div class="section-8-width">
@@ -919,12 +985,14 @@
     </div>
     <!-- footer section -->
     <footer>
-        <div style="background: #F3E9FF;
-        padding: 1%;
-        font-family: poppins;
-        text-align: center;
-        color: #1D1D1D;
-        font-weight: 600;">
+        <div style="
+          background: #f3e9ff;
+          padding: 1%;
+          font-family: poppins;
+          text-align: center;
+          color: #1d1d1d;
+          font-weight: 600;
+        ">
             <p id="footer-content"></p>
         </div>
     </footer>
@@ -1058,83 +1126,99 @@
         }
         //footer content
         function footerContent() {
-            document.getElementById("footer-content").innerText = `©  ${new Date().getFullYear()} CareerLabs Technologies Pvt Ltd`;
+            document.getElementById(
+                "footer-content"
+            ).innerText = `©  ${new Date().getFullYear()} CareerLabs Technologies Pvt Ltd`;
         }
         footerContent();
 
-        document.getElementById("slider-1").addEventListener('input', updateSlider1)
-        document.getElementById("slider-2").addEventListener('input', updateSlider2)
+        document
+            .getElementById("slider-1")
+            .addEventListener("input", updateSlider1);
+        document
+            .getElementById("slider-2")
+            .addEventListener("input", updateSlider2);
 
         function updateSlider2() {
             const rangeSlider = document.getElementById("slider-2");
             const selectedValue = document.getElementById("value2");
             selectedValue.textContent = rangeSlider.value;
-            console.log(rangeSlider.value)
+            console.log(rangeSlider.value);
             const rangeSlider3 = document.getElementById("slider-1");
             const selectedValue3 = document.getElementById("value1");
             selectedValue.textContent = rangeSlider.value;
             if (rangeSlider.value <= 0) {
                 selectedValue3.textContent = 0;
                 rangeSlider3.value = 0;
-            }
-            else if (rangeSlider.value <= 0.5 && rangeSlider.value !== 0) {
+            } else if (rangeSlider.value <= 0.5 && rangeSlider.value !== 0) {
                 selectedValue3.textContent = 630;
+                selectedValue3.style.color = "#D74646";
+                selectedValue.style.color = "#D74646";
                 rangeSlider3.value = 630;
-            }
-            else if (rangeSlider.value <= 1) {
+            } else if (rangeSlider.value <= 1) {
                 selectedValue3.textContent = 650;
+                selectedValue3.style.color = "#E89D58";
+                selectedValue.style.color = "#E89D58";
                 rangeSlider3.value = 650;
-            }
-            else if (rangeSlider.value <= 2.5) {
+            } else if (rangeSlider.value <= 2.5) {
                 selectedValue3.textContent = 720;
                 rangeSlider3.value = 720;
-                selectedValue.textContent = 2.5
-            }
-            else {
+                selectedValue3.style.color = "#36A33B";
+                selectedValue.style.color = "#36A33B";
+                selectedValue.textContent = 2.5;
+            } else {
                 selectedValue3.textContent = 770;
                 rangeSlider3.value = 770;
-                selectedValue.textContent = 4
+                selectedValue3.style.color = "#36A33B";
+                selectedValue.style.color = "#36A33B";
+                selectedValue.textContent = 4;
+                rangeSlider.value = 4;
             }
         }
         function updateSlider1() {
+            console.log("0090");
             const rangeSlider = document.getElementById("slider-1");
             const selectedValue = document.getElementById("value1");
             selectedValue.textContent = rangeSlider.value;
 
-            console.log(selectedValue)
+            console.log(selectedValue);
             const rangeSlider2 = document.getElementById("slider-2");
             const selectedValue2 = document.getElementById("value2");
             if (rangeSlider.value <= 630) {
                 selectedValue2.textContent = 0.5;
                 rangeSlider2.value = 0.5;
-                selectedValue.textContent = 630
+                selectedValue.textContent = 630;
+                selectedValue.style.color = "#D74646";
+                selectedValue2.style.color = "#D74646";
                 console.log("pop");
-            }
-            else if (rangeSlider.value <= 650) {
+            } else if (rangeSlider.value <= 650) {
                 selectedValue2.textContent = 1;
                 rangeSlider2.value = 1;
-                selectedValue.textContent = 650
-            }
-            else if (rangeSlider.value <= 720) {
+                selectedValue.style.color = "#E89D58";
+                selectedValue2.style.color = "#E89D58";
+                selectedValue.textContent = 650;
+            } else if (rangeSlider.value <= 720) {
                 selectedValue2.textContent = 2.5;
                 rangeSlider2.value = 2.5;
-                selectedValue.textContent = 720
-            }
-            else {
+                selectedValue.style.color = "#36A33B";
+                selectedValue2.style.color = "#36A33B";
+                selectedValue.textContent = 720;
+            } else {
                 selectedValue2.textContent = 4;
                 rangeSlider2.value = 4;
-                selectedValue.textContent = 770
-                rangeSlider.value = 770
+                selectedValue.textContent = 770;
+                selectedValue.style.color = "#36A33B";
+                selectedValue2.style.color = "#36A33B";
+                rangeSlider.value = 770;
             }
-
         }
 
-        var TrandingSlider = new Swiper('.tranding-slider', {
-            effect: 'coverflow',
+        var TrandingSlider = new Swiper(".tranding-slider", {
+            effect: "coverflow",
             grabCursor: true,
             centeredSlides: true,
             loop: true,
-            slidesPerView: 'auto',
+            slidesPerView: "auto",
             coverflowEffect: {
                 rotate: 0,
                 stretch: 0,
@@ -1145,58 +1229,69 @@
                 delay: 4000,
             },
             pagination: {
-                el: '.swiper-pagination',
+                el: ".swiper-pagination",
                 clickable: true,
             },
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            }
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
         });
 
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
                 if (entry.isIntersecting) {
-                    document.querySelectorAll(".question")[0].classList.add("fadeInLeft")
-                    document.querySelectorAll(".question")[1].classList.add("fadeInTop")
-                    document.querySelectorAll(".question")[2].classList.add("fadeInRight")
+                    document
+                        .querySelectorAll(".question")[0]
+                        .classList.add("fadeInLeft");
+                    document
+                        .querySelectorAll(".question")[1]
+                        .classList.add("fadeInTop");
+                    document
+                        .querySelectorAll(".question")[2]
+                        .classList.add("fadeInRight");
+                } else {
+                    document
+                        .querySelectorAll(".question")[0]
+                        .classList.remove("fadeInLeft");
+                    document
+                        .querySelectorAll(".question")[1]
+                        .classList.remove("fadeInTop");
+                    document
+                        .querySelectorAll(".question")[2]
+                        .classList.remove("fadeInRight");
                 }
-                else {
-                    document.querySelectorAll(".question")[0].classList.remove("fadeInLeft")
-                    document.querySelectorAll(".question")[1].classList.remove("fadeInTop")
-                    document.querySelectorAll(".question")[2].classList.remove("fadeInRight")
-                }
-            })
-        })
-        observer.observe(document.querySelector(".scroll-container"))
+            });
+        });
+        observer.observe(document.querySelector(".scroll-container"));
         // carousel
         function slide6th(n, f, s, fg, fgg, fggg) {
-            slide(n, f, s, fg, fgg, fggg)
+            slide(n, f, s, fg, fgg, fggg);
         }
-        slide(0, "item2", "dot2", "carousel2", "carousel-stop2")
+        slide(0, "item2", "dot2", "carousel2", "carousel-stop2");
         function slide(n, f, s, fg, fgg, fggg, l) {
             var carousel = document.getElementById(fg);
             var carouselstop = document.getElementById(fgg);
             var items = document.getElementsByClassName(f);
             var dot = document.getElementsByClassName(s);
-            var nextprev = document.getElementsByClassName(l)[0]
+            var nextprev = document.getElementsByClassName(l)[0];
             if (n <= -1) {
-                slideIndex = items.length - 1
-                n = slideIndex
+                slideIndex = items.length - 1;
+                n = slideIndex;
             }
             var currentIndex = n;
             var totalItems = items.length;
             var scrollInterval = 3000; // milliseconds
-            var nextIndex = (currentIndex) % totalItems;
+            var nextIndex = currentIndex % totalItems;
             var scrollPosition = nextIndex * carousel.offsetWidth;
             for (var i = 0; i < dot.length; i++) {
                 dot[i].className = dot[i].className.replace("active", "");
             }
-            dot[nextIndex].className += " active"
+            dot[nextIndex].className += " active";
             // Scroll the carousel to the next item
             carousel.scroll({
                 left: scrollPosition,
-                behavior: 'smooth'
+                behavior: "smooth",
             });
             // Update the current index
             currentIndex = nextIndex;
@@ -1207,11 +1302,11 @@
                 for (var i = 0; i < dot.length; i++) {
                     dot[i].className = dot[i].className.replace("active", "");
                 }
-                dot[nextIndex].className += " active"
+                dot[nextIndex].className += " active";
                 // Scroll the carousel to the next item
                 carousel.scroll({
                     left: scrollPosition,
-                    behavior: 'smooth'
+                    behavior: "smooth",
                 });
 
                 // Update the current index
@@ -1221,19 +1316,18 @@
             // Start autoscrolling
             var intervalId = setInterval(scrollToNextItem, scrollInterval);
 
-            if (fggg === 'slide') {
-                clearInterval(intervalId)
+            if (fggg === "slide") {
+                clearInterval(intervalId);
             }
             // Stop autoscrolling when the mouse is over the carousel
-            carouselstop.addEventListener('mouseenter', function () {
+            carouselstop.addEventListener("mouseenter", function () {
                 clearInterval(intervalId);
             });
 
             // Resume autoscrolling when the mouse leaves   the carousel
-            carouselstop.addEventListener('mouseleave', function () {
+            carouselstop.addEventListener("mouseleave", function () {
                 intervalId = setInterval(scrollToNextItem, scrollInterval);
-            }
-            );
+            });
         }
         const playPauseButton = document.querySelector("#playvideo");
         const iframe = document.querySelector("iframe");
@@ -1245,27 +1339,28 @@
                 //     '{"event":"command","func":"pauseVideo","args":""}',
                 //     "*"
                 // );
-                iframe.src = "https://www.youtube.com/embed/ahhCnTpF2cI";
-                loop = true
+                iframe.src = "https://player.vimeo.com/video/848747092?autopause=0";
+                loop = true;
             } else {
-                loop = false
+                loop = false;
                 // iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-                iframe.src = "https://www.youtube.com/embed/ahhCnTpF2cI?autoplay=1";
+                iframe.src = "https://player.vimeo.com/video/848747092?autoplay=1";
             }
         });
-        console.log(loop)
+        console.log(loop);
         if (loop) {
-            const observer = new IntersectionObserver(entries => {
+            const observer = new IntersectionObserver((entries) => {
                 if (loop)
-                    entries.forEach(entry => {
+                    entries.forEach((entry) => {
                         if (entry.isIntersecting) {
-                            iframe.src = "https://www.youtube.com/embed/ahhCnTpF2cI?autoplay=1";
-                            console.log(iframe)
-                            loop = false
+                            iframe.src =
+                                "https://player.vimeo.com/video/848747092?autoplay=1";
+                            console.log(iframe);
+                            loop = false;
                         }
-                    })
-            })
-            observer.observe(document.querySelector(".gmat-sec-3"))
+                    });
+            });
+            observer.observe(document.querySelector(".gmat-sec-3"));
         }
 
         // get the current Time
@@ -1302,7 +1397,7 @@
                     document
                         .querySelector("#contbtn")
                         .addEventListener("click", function () {
-                            console.log(url)
+                            console.log(url);
                             console.log("ifclicks");
                             if (
                                 document.getElementById("contbtn").innerText === "6380731062"
