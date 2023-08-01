@@ -922,7 +922,7 @@ img.second {
     .gmat-sec-6-card-1,
     .gmat-sec-6-card-2 {
         width: 95%;
-        padding: 15px 0px;
+        padding: 20px 0px;
     }
 
     .gmat-sec-6-innner-card-split {
@@ -932,8 +932,9 @@ img.second {
         gap: 7vw;
     }
 
+
     .gmat-background-color {
-        background-position: center top;
+        background-position-y: 18vw;
         background-size: auto;
     }
 
