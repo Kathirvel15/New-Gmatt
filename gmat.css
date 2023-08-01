@@ -1639,6 +1639,9 @@ html {
     width: 93%;
     margin: auto;
     top: 2.5vw;
+}
+
+iframe #player {
     border-radius: 20px;
 }
 
