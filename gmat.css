@@ -792,6 +792,10 @@ img.second {
 }
 
 @media screen and (max-width: 767px) {
+    .gmat-sec-1 .sec-1-cols .img-col {
+        margin-bottom: 5vw;
+    }
+
     .scroll-container img.first {
         height: 80px !important;
         left: -25px;
