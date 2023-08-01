@@ -125,7 +125,7 @@ body,
     border: 0.5px solid #9b9b9b;
     background: #fff;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.29);
-    width: 18vw;
+    width: 16vw;
     padding: 1vw 2vw 2vw 2vw;
     text-align: center;
 }
@@ -142,12 +142,12 @@ body,
     margin: 0px;
     font-weight: 600;
     letter-spacing: 0.2vw;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
 }
 
 .gmat-carousel-flex h1 {
     margin: 0px;
-    font-size: 3vw;
+    font-size: 2.6vw;
 }
 
 .gmat-carousel-inner h1 {
@@ -159,7 +159,7 @@ body,
 .gmat-carousel-inner p {
     margin: 0px;
     margin-top: 1vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 
 .gmat-carousel-inner {
@@ -177,8 +177,8 @@ body,
 
 .gmat-background-color {
     background-position: bottom;
-    background-size: 100% 600px;
     background-repeat: no-repeat;
+    background-size: 132vw;
     background-image: url("./Assets/background-image.svg");
 }
 
@@ -256,7 +256,6 @@ body,
     align-items: center;
     justify-content: space-between;
 }
-
 
 .gmat-sec-7 {
     background-image: url("./Assets/back-vector.png");
@@ -349,7 +348,7 @@ body,
 .section-3-split {
     display: flex;
     gap: 2em;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 /* Google review */
@@ -555,7 +554,7 @@ body,
 .p-1 {
     font-size: 2.8vw;
     font-weight: 500;
-    color: #936BC7;
+    color: #936bc7;
 }
 
 .first {
@@ -584,12 +583,12 @@ body,
 .p-4 {
     font-size: 3.8vw;
     font-weight: 600;
-    color: #DA8E63;
+    color: #da8e63;
 }
 
 .p-5 {
     font-size: 2.5vw;
-    color: #6DCABF;
+    color: #6dcabf;
     position: relative;
     font-weight: 700;
 }
@@ -605,7 +604,7 @@ body,
 
 .p-6 {
     font-weight: 700;
-    color: #6DCABF;
+    color: #6dcabf;
     font-size: 1.5vw;
 }
 
@@ -617,14 +616,14 @@ body,
 
 .p-8 {
     font-weight: 800;
-    color: #7235C4;
+    color: #7235c4;
     font-size: 4vw;
     position: relative;
     top: -0.5vw;
 }
 
 .p-9 {
-    color: #A8AA37;
+    color: #a8aa37;
     font-size: 2vw;
     position: relative;
     top: -1vw;
@@ -632,7 +631,7 @@ body,
 }
 
 .p-10 {
-    color: #DA8E63;
+    color: #da8e63;
     font-size: 2vw;
     position: relative;
     top: -1vw;
@@ -640,7 +639,7 @@ body,
 }
 
 .p-11 {
-    color: #6DCABF;
+    color: #6dcabf;
     font-size: 2.2vw;
     position: relative;
     top: -2vw;
@@ -648,13 +647,13 @@ body,
 }
 
 .p-12 {
-    color: #6D31BF;
+    color: #6d31bf;
     font-size: 2.4vw;
     font-weight: 700;
 }
 
 .p-13 {
-    color: #DA8E63;
+    color: #da8e63;
     font-size: 2.2vw;
     position: relative;
     top: -2vw;
@@ -669,7 +668,7 @@ body,
 }
 
 .p-15 {
-    color: #936BC7;
+    color: #936bc7;
     font-size: 2vw;
     font-weight: 500;
 }
@@ -718,7 +717,7 @@ img.second {
     height: 25px;
     appearance: none;
     -webkit-appearance: none;
-    background-color: #682CBA;
+    background-color: #682cba;
     border-radius: 5px;
     outline: none;
     border: 2px solid #fff;
@@ -728,7 +727,7 @@ img.second {
 .input-box:checked::before {
     content: "\2713";
     position: absolute;
-    background: #682CBA;
+    background: #682cba;
     font-size: 16px;
     color: #fff;
     width: 20px;
@@ -788,8 +787,11 @@ img.second {
     }
 }
 
-@media screen and (max-width: 767px) {
+.gmat-carousel-first img {
+    width: 12vw;
+}
 
+@media screen and (max-width: 767px) {
     .scroll-container img.first {
         height: 80px !important;
         left: -25px;
@@ -920,6 +922,7 @@ img.second {
     .gmat-sec-6-card-1,
     .gmat-sec-6-card-2 {
         width: 95%;
+        padding: 15px 0px;
     }
 
     .gmat-sec-6-innner-card-split {
@@ -929,10 +932,10 @@ img.second {
         gap: 7vw;
     }
 
-    /* .gmat-background-color {
-    background-position: center top;
-    background-size: auto;
-  } */
+    .gmat-background-color {
+        background-position: center top;
+        background-size: auto;
+    }
 
     .gmat-sec-6-card-1 p,
     .gmat-sec-6-card-2 p {
@@ -941,9 +944,14 @@ img.second {
         margin-top: 7vw;
     }
 
+    .mobile-4-grid svg {
+        top: 0px !important;
+    }
+
     /* section-7 */
     .gmat-sec-7 {
         margin-top: 0.5rem;
+        background-position-y: 18%;
     }
 
     /* google review */
@@ -1018,7 +1026,7 @@ img.second {
         width: 95%;
         margin: auto;
         grid-row-gap: 9vw;
-        grid-column-gap: 2vw
+        grid-column-gap: 2vw;
     }
 
     .rotman {
@@ -1242,7 +1250,7 @@ img.second {
 }
 
 .container {
-    max-width: 78.2vw;
+    max-width: 71.21vw;
     margin: 0 auto;
 }
 
@@ -1303,6 +1311,7 @@ img.second {
     filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
     width: 1vw;
     height: 1vw;
+    margin: 0px 7px !important;
 }
 
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
@@ -1314,6 +1323,10 @@ img.second {
     padding: 0;
     margin: 0;
     font-family: "poppins";
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media (min-width: 1024px) {
@@ -1497,20 +1510,11 @@ img.second {
 }
 
 .marquee-sec .marquee-sec-cols .content-col {
-    width: 90%;
-}
-
-.marquee-sec .marquee-sec-cols .content-col marquee {
-    padding-top: 0.3rem;
-    margin-bottom: -0.5rem;
+    width: 79%;
 }
 
 .marquee-sec .marquee-sec-cols .content-col img {
     margin-right: 2.5rem;
-}
-
-.scroll-element .slide {
-    display: flex;
 }
 
 .marquee-sec .marquee-sec-cols .head-col h5 {
@@ -1523,27 +1527,28 @@ img.second {
     padding-right: 2vw;
 }
 
-.scroll-parent {
-    position: relative;
-    width: 80vw;
-    height: auto;
+.logos {
     overflow: hidden;
-    width: auto;
+    padding: 0.5rem 0;
+    white-space: nowrap;
 }
 
-.scroll-parent .scroll-element {
-    width: calc(250px * 12);
-    display: flex;
-    animation: primary 20s linear infinite;
+.logos-slide {
+    display: inline-block;
+    animation: 10s slide infinite linear;
 }
 
-@keyframes primary {
-    0% {
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    from {
         transform: translateX(0);
     }
 
-    100% {
-        transform: translateX(calc(-250px * 6));
+    to {
+        transform: translateX(-100%);
     }
 }
 
@@ -1625,19 +1630,28 @@ img.second {
     background-position: top center;
     background-repeat: no-repeat;
     width: 50%;
+    position: relative;
+    padding: 16% 0;
     text-align: center;
 }
 
 .gmat-sec-3 .sec-3-cols .video-col iframe {
     width: 35vw;
-    height: 42vh;
-    margin-top: 4vw;
-    border-radius: 13px;
+    height: 47vh;
+    top: 12%;
+    right: 11.5%;
+    margin-top: 0;
+    position: absolute;
+    border-radius: 13%;
+}
+
+.gmat-sec-3 .sec-3-cols .video-col iframe .js-player-fullscreen {
+    border-radius: 4%;
 }
 
 /* Section - 4 */
 .gmat-sec-4 {
-    background-image: url("./Assets/new-gre/form-sec.svg");
+    background-image: url("./Assets/form-sec.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1717,7 +1731,6 @@ img.second {
     margin-bottom: 2vw;
     align-items: center;
 }
-
 
 .gmat-sec-4 .gmat-sec-4-cont-form form .check-box label {
     color: #fff;
@@ -1812,6 +1825,27 @@ img.second {
     background: var(--secondary-clr, #15baa6);
 }
 
+@media (min-width: 767px) {
+
+    /* hover */
+    .gmat-sec-6-card-1:hover::before {
+        top: 0;
+        right: 0;
+        opacity: 1;
+    }
+
+    .gmat-sec-6-card-2:hover::before {
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+
+    .gmat-sec-6-card-1:hover p,
+    .gmat-sec-6-card-2:hover p {
+        color: #fff;
+    }
+}
+
 /* -----------**************Tab-View***************----------------- */
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -1899,7 +1933,7 @@ img.second {
     .gmat-sec-3 .sec-3-cols .video-col iframe {
         width: 42vw;
         height: 18vh;
-        margin-top: 5vw;
+        right: 4%;
         border-radius: 13px;
     }
 
@@ -1988,7 +2022,7 @@ img.second {
     }
 
     .mobile-background-color-card {
-        background-color: #4C149D;
+        background-color: #4c149d;
     }
 
     .mobile-background-color-card p {
@@ -2221,9 +2255,9 @@ img.second {
     }
 
     .gmat-sec-3 .sec-3-cols .video-col {
-        background-position: bottom;
         background-size: 88vw;
-        background-position-y: 124px;
+        padding: 0;
+        background-position-y: 120px;
         width: 100%;
         text-align: center;
     }
@@ -2233,14 +2267,18 @@ img.second {
         font-size: 5.5vw;
         text-align: center;
         line-height: 8.5vw;
-        padding-bottom: 4rem;
+        padding-bottom: 15rem;
     }
 
     .gmat-sec-3 .sec-3-cols .video-col iframe {
         width: 82vw;
-        height: 27vh;
-        margin-top: 0rem;
-        border-radius: 8px;
+        height: 40vh;
+        top: 35%;
+        right: 5%;
+    }
+
+    .gmat-sec-3 .sec-3-cols .video-col iframe .js-player-fullscreen {
+        border-radius: 4%;
     }
 
     /* Section - 4 */
