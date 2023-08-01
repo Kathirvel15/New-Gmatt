@@ -265,8 +265,11 @@
                     For The
                     <span>Last Minute!</span>
                 </h3>
-                <iframe id="video1" src="https://player.vimeo.com/video/848747092" frameborder="0"
-                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="video-col-1">
+                    <img src="Assets/video-back-img.png" alt="Image" width="100%" />
+                    <iframe id="video1" src="https://player.vimeo.com/video/848747092" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -284,12 +287,12 @@
                     <div class="form-cols">
                         <div class="col">
                             <p>Full Name</p>
-                            <input id="name" type="text" placeholder="eg: Nithin Ravi" class="input-box" required=""
+                            <input id="name" type="text" placeholder="eg: John Doe" class="input-box" required=""
                                 onkeydown="spacevalid(event)" />
                         </div>
                         <div class="col">
                             <p>email-ID</p>
-                            <input id="email" type="email" placeholder="eg: nithin@gmail.com " class="input-box"
+                            <input id="email" type="email" placeholder="eg: johndoe@gmail.com " class="input-box"
                                 required="" onkeydown="spacevalid(event)" />
                         </div>
                     </div>
@@ -1389,7 +1392,7 @@
 
         function myFunction(x) {
             var url = document.querySelector("#atag");
-            if (currenthr >= 12) {
+            if (currenthr >= 9 && currenthr <= 20) {
                 if (x.matches) {
                     // If media query matches
                     url.href = "tel:+916366004441";

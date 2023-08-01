@@ -1379,7 +1379,7 @@ html {
 }
 
 .gmat-header .header-cols .nav-content a {
-    font-size: 1vw;
+    font-size: 0.9vw;
     font-weight: 700;
     color: #ffffffb2;
     cursor: pointer;
@@ -1394,12 +1394,10 @@ html {
 
 .gmat-header .header-cols .nav-content .btn-col .button {
     background: #15baa6;
-    /* border: solid 1px #ffffff; */
     border-radius: 5px;
     padding: 0.3rem 1rem;
     cursor: pointer;
     transition: 0.3s;
-    width: 8vw;
 }
 
 .gmat-header .header-cols .nav-content .btn-col .button:hover,
@@ -1418,13 +1416,14 @@ html {
 
 .gmat-header .header-cols .nav-content .btn-col button {
     background: #15baa6;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: var(--white, #fff);
     padding: 0rem;
     border: none;
     cursor: pointer;
     transition: 0.3s;
+    width: 8vw;
 }
 
 /* Section 1 */
@@ -1625,25 +1624,44 @@ html {
 }
 
 .gmat-sec-3 .sec-3-cols .video-col {
-    background-image: url("./Assets/video-back-img.png");
-    background-size: 37vw;
-    background-position: top center;
-    background-repeat: no-repeat;
-    width: 50%;
-    position: relative;
-    padding: 16% 0;
-    text-align: center;
+    width: 40%;
 }
 
-.gmat-sec-3 .sec-3-cols .video-col iframe {
-    width: 35vw;
-    height: 47vh;
-    top: 12%;
-    right: 11.5%;
-    margin-top: 0;
-    position: absolute;
-    border-radius: 13%;
+.gmat-sec-3 .sec-3-cols .video-col-1 {
+    position: relative;
 }
+
+.gmat-sec-3 .sec-3-cols .video-col-1 iframe {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 93%;
+    margin: auto;
+    top: 2.5vw;
+    border-radius: 20px;
+}
+
+/* .gmat-sec-3 .sec-3-cols .video-col {
+  background-image: url("../Assets/video-back-img.png");
+  background-size: 37vw;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 50%;
+  position: relative;
+  padding: 16% 0;
+  text-align: center;
+} */
+
+/* .gmat-sec-3 .sec-3-cols .video-col iframe {
+  width: 35vw;
+  height: 47vh;
+  top: 12%;
+  right: 11.5%;
+  margin-top: 0;
+  position: absolute;
+  border-radius: 13%;
+} */
 
 .gmat-sec-3 .sec-3-cols .video-col iframe .js-player-fullscreen {
     border-radius: 4%;
@@ -1720,7 +1738,6 @@ html {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.3rem;
-    text-transform: capitalize;
 }
 
 .gmat-sec-4 .gmat-sec-4-cont-form form .check-box {
@@ -1891,13 +1908,10 @@ html {
         padding-right: 1.5rem;
     }
 
-    .gmat-header .header-cols .nav-content .btn-col .button {
-        width: 13vw;
-    }
-
     .gmat-header .header-cols .nav-content .btn-col button {
         font-size: 0.8rem;
         padding: 0rem;
+        width: 10vw;
     }
 
     .gmat-header .header-cols .nav-content .btn-col button i {
@@ -1926,16 +1940,16 @@ html {
         padding: 2rem;
     }
 
-    .gmat-sec-3 .sec-3-cols .video-col {
-        background-size: 45vw;
-    }
+    /* .gmat-sec-3 .sec-3-cols .video-col {
+    background-size: 45vw;
+  }
 
-    .gmat-sec-3 .sec-3-cols .video-col iframe {
-        width: 42vw;
-        height: 18vh;
-        right: 4%;
-        border-radius: 13px;
-    }
+  .gmat-sec-3 .sec-3-cols .video-col iframe {
+    width: 42vw;
+    height: 18vh;
+    right: 4%;
+    border-radius: 13px;
+  } */
 
     .gmat-sec-3 .sec-3-cols .content-col .btn-col {
         border-radius: 7px;
@@ -2150,6 +2164,8 @@ html {
         border: none;
         padding: 0.5rem 0rem;
         color: #ffffffb2;
+        text-align: left;
+        width: 23vw;
     }
 
     /* Section - 1 */
@@ -2233,7 +2249,7 @@ html {
         text-align: center;
         line-height: 7vw;
         padding-bottom: 0rem;
-        padding: 1.5rem 0;
+        padding: 4vw 0px 7vw;
     }
 
     .gmat-sec-3 .sec-3-cols .content-col .btn-col {
@@ -2255,11 +2271,22 @@ html {
     }
 
     .gmat-sec-3 .sec-3-cols .video-col {
-        background-size: 88vw;
-        padding: 0;
-        background-position-y: 120px;
         width: 100%;
-        text-align: center;
+    }
+
+    .gmat-sec-3 .sec-3-cols .video-col-1 iframe {
+        top: 5.5vw;
+    }
+
+    /* .gmat-sec-3 .sec-3-cols .video-col {
+    background-size: 88vw;
+    padding: 0;
+    background-position-y: 120px;
+    width: 100%;
+    text-align: center;
+  } */
+    .mobile-views {
+        padding-top: 6vw;
     }
 
     .gmat-sec-3 .sec-3-cols .content-col h3,
@@ -2267,15 +2294,14 @@ html {
         font-size: 5.5vw;
         text-align: center;
         line-height: 8.5vw;
-        padding-bottom: 15rem;
     }
 
-    .gmat-sec-3 .sec-3-cols .video-col iframe {
-        width: 82vw;
-        height: 40vh;
-        top: 35%;
-        right: 5%;
-    }
+    /* .gmat-sec-3 .sec-3-cols .video-col iframe {
+    width: 82vw;
+    height: 40vh;
+    top: 35%;
+    right: 5%;
+  } */
 
     .gmat-sec-3 .sec-3-cols .video-col iframe .js-player-fullscreen {
         border-radius: 4%;
