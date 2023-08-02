@@ -1374,7 +1374,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem 4rem;
+    padding: 0.5rem 4rem;
 }
 
 .gmat-header .header-cols .nav-content {
@@ -1384,7 +1384,7 @@ html {
 }
 
 .gmat-header .header-cols .nav-content a {
-    font-size: 0.9vw;
+    font-size: 1.1vw;
     font-weight: 700;
     color: #ffffffb2;
     cursor: pointer;
@@ -1421,7 +1421,7 @@ html {
 
 .gmat-header .header-cols .nav-content .btn-col button {
     background: #15baa6;
-    font-size: 1.1rem;
+    font-size: 1.3vw;
     font-weight: 600;
     color: var(--white, #fff);
     padding: 0rem;
