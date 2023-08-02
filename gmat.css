@@ -2022,8 +2022,19 @@ iframe {
 }
 
 /* -----------**************Mobile-View***************----------------- */
+.gmat-header-width {
+    height: 100vh;
+    background: #5652529e;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+}
 
 @media (max-width: 767px) {
+    .logo-col .mobile-views {
+        padding-top: 0px;
+    }
+
     .gmat-sec-6-innner-card-split {
         grid-auto-flow: dense;
     }

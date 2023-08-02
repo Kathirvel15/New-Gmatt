@@ -133,6 +133,8 @@
             </div>
         </div>
     </section>
+    <div id="gmat-header-width-id">
+    </div>
     <!-- Section - 1 -->
     <section class="gmat-sec-1" id="home">
         <div class="sec-1-cols">
@@ -1429,12 +1431,20 @@
                     document.getElementById("close_img").style.display = "none";
                     document.getElementById("nav_img").style.display = "block";
                     document.getElementById("navcontent").style.display = "none";
+                    document.getElementById("gmat-header-width-id").classList.remove("gmat-header-width")
                 } else {
                     document.getElementById("nav_img").style.display = "none";
                     document.getElementById("close_img").style.display = "block";
                     document.getElementById("navcontent").style.display = "block";
+                    document.getElementById("gmat-header-width-id").classList.add("gmat-header-width")
                 }
             });
+        document.querySelector("#gmat-header-width-id").addEventListener("click", function () {
+            document.getElementById("navcontent").style.display = "none";
+            document.getElementById("gmat-header-width-id").classList.remove("gmat-header-width")
+            document.getElementById("nav_img").style.display = "block";
+            document.getElementById("close_img").style.display = "none";
+        })
 
         // contact changes for Desktop & mob
 
