@@ -101,7 +101,7 @@
     </script>
 </head>
 
-<body>
+<body onload="load()" onscroll="usuarioMoveuScroll()">
     <!-- Header Section  -->
     <section class="gmat-header">
         <div class="header-cols">
@@ -1068,65 +1068,112 @@
         }
     </script>
     <script>
-        //  Scroll Popup Function
-        window.onscroll = function () {
-            scrollFunction();
-        };
-        function scrollFunction() {
-            if (
-                document.documentElement.scrollTop >= 160 &&
-                document.documentElement.scrollTop <= 1000
-            ) {
+        function usuarioMoveuScroll() {
+            const sec2 = document.querySelector(".gmat-sec-2").offsetHeight;
+            const sec1 = document.querySelector(".gmat-sec-1").offsetHeight
+            const sec3 = document.querySelector(".gmat-sec-3").offsetHeight;
+            const sec5 = document.querySelector(".section-4-gre").offsetHeight;
+            const sec6 = document.querySelector(".gmat-sec-6").offsetHeight;
+            const sec7 = document.querySelector(".gmat-sec-7").offsetHeight;
+            const form = document.querySelector(".gmat-sec-4").offsetHeight;
+            const marque = document.querySelector(".marquee-sec").offsetHeight
+            if (document.documentElement.scrollTop >= (sec1 / 2) && document.documentElement.scrollTop <= sec1 + marque + 60) {
                 document.querySelector("#popup-1").style.display = "block";
                 document.querySelector("#popup-2").style.display = "none";
                 document.querySelector("#popup-3").style.display = "none";
                 document.querySelector("#popup-4").style.display = "none";
-            } else if (
-                document.documentElement.scrollTop >= 1001 &&
-                document.documentElement.scrollTop <= 1600
+            }
+            else if (
+                document.documentElement.scrollTop >= sec2 + sec1 + marque + form + 50 &&
+                document.documentElement.scrollTop <= 120 + form + marque + sec3 + sec2 + sec5
             ) {
+                console.log("vel")
                 document.querySelector("#popup-2").style.display = "block";
                 document.querySelector("#popup-1").style.display = "none";
                 document.querySelector("#popup-3").style.display = "none";
                 document.querySelector("#popup-4").style.display = "none";
-            } else if (
-                document.documentElement.scrollTop >= 1601 &&
-                document.documentElement.scrollTop <= 2100
+            }
+            else if (
+                document.documentElement.scrollTop >= sec2 + sec1 + marque + form + sec5 / 2 + sec3 &&
+                document.documentElement.scrollTop <= 120 + form + marque + sec3 + sec2 + sec5 + sec6
             ) {
                 document.querySelector("#popup-4").style.display = "none";
                 document.querySelector("#popup-3").style.display = "block";
                 document.querySelector("#popup-2").style.display = "none";
                 document.querySelector("#popup-1").style.display = "none";
-            } else {
+            }
+            else if (
+                document.documentElement.scrollTop >= sec2 + sec1 + marque + form + sec5 + sec6 / 2 + sec3 &&
+                document.documentElement.scrollTop <= sec1 + form + marque + sec3 + sec2 + sec5 + sec6 + sec7
+            ) {
                 document.querySelector("#popup-1").style.display = "none";
                 document.querySelector("#popup-2").style.display = "none";
                 document.querySelector("#popup-3").style.display = "none";
+                document.querySelector("#popup-4").style.display = "block";
+            }
+            else {
+                document.querySelector("#popup-2").style.display = "none";
+                document.querySelector("#popup-1").style.display = "none";
+                document.querySelector("#popup-3").style.display = "none";
                 document.querySelector("#popup-4").style.display = "none";
             }
-            let screen = window.screen;
-            if (screen.width <= 767) {
-                if (
-                    document.documentElement.scrollTop >= 2101 &&
-                    document.documentElement.scrollTop <=
-                    document.body.scrollHeight - 900
-                ) {
-                    document.querySelector("#popup-1").style.display = "none";
-                    document.querySelector("#popup-2").style.display = "none";
-                    document.querySelector("#popup-3").style.display = "none";
-                    document.querySelector("#popup-4").style.display = "block";
-                }
-            } else if (screen.width >= 768)
-                if (
-                    document.documentElement.scrollTop >= 2101 &&
-                    document.documentElement.scrollTop <=
-                    document.body.scrollHeight - 700
-                ) {
-                    document.querySelector("#popup-1").style.display = "none";
-                    document.querySelector("#popup-2").style.display = "none";
-                    document.querySelector("#popup-3").style.display = "none";
-                    document.querySelector("#popup-4").style.display = "block";
-                }
         }
+        //     });
+        // });
+        // scrollobserver.observe(document.querySelector(".gmat-sec-2"));
+        //     else {
+
+        //         document.querySelector("#popup-1").style.display = "none";
+        //         document.querySelector("#popup-2").style.display = "none";
+        //         document.querySelector("#popup-3").style.display = "none";
+        //         document.querySelector("#popup-4").style.display = "none";
+        //     }
+        //     // else if (
+        //     //     document.documentElement.scrollTop >= 1001 &&
+        //     //     document.documentElement.scrollTop <= 1600
+        //     // ) {
+        //     //     document.querySelector("#popup-2").style.display = "block";
+        //     //     document.querySelector("#popup-1").style.display = "none";
+        //     //     document.querySelector("#popup-3").style.display = "none";
+        //     //     document.querySelector("#popup-4").style.display = "none";
+        //     // } else if (
+        //     //     document.documentElement.scrollTop >= 1601 &&
+        //     //     document.documentElement.scrollTop <= 2100
+        //     // ) {
+        //     //     document.querySelector("#popup-4").style.display = "none";
+        //     //     document.querySelector("#popup-3").style.display = "block";
+        //     //     document.querySelector("#popup-2").style.display = "none";
+        //     //     document.querySelector("#popup-1").style.display = "none";
+        //     // } else {
+        //     //     document.querySelector("#popup-1").style.display = "none";
+        //     //     document.querySelector("#popup-2").style.display = "none";
+        //     //     document.querySelector("#popup-3").style.display = "none";
+        //     //     document.querySelector("#popup-4").style.display = "none";
+        //     // }
+        //     let screen = window.screen;
+        //     if (screen.width <= 767) {
+        //         if (
+        //             document.documentElement.scrollTop >= 2101 &&
+        //             document.documentElement.scrollTop <=
+        //             document.body.scrollHeight - 900
+        //         ) {
+        //             document.querySelector("#popup-1").style.display = "none";
+        //             document.querySelector("#popup-2").style.display = "none";
+        //             document.querySelector("#popup-3").style.display = "none";
+        //             document.querySelector("#popup-4").style.display = "block";
+        //         }
+        //     } else if (screen.width >= 768)
+        //         if (
+        //             document.documentElement.scrollTop >= 2101 &&
+        //             document.documentElement.scrollTop <=
+        //             document.body.scrollHeight - 700
+        //         ) {
+        //             document.querySelector("#popup-1").style.display = "none";
+        //             document.querySelector("#popup-2").style.display = "none";
+        //             document.querySelector("#popup-3").style.display = "none";
+        //             document.querySelector("#popup-4").style.display = "block";
+        //         }
+        // }
         //footer content
         function footerContent() {
             document.getElementById(
@@ -1334,6 +1381,7 @@
         }
         const playPauseButton = document.querySelector("#playvideo");
         const iframe = document.querySelector("iframe");
+        console.log(iframe, "iframe")
         let loop = true;
         playPauseButton.addEventListener("click", function () {
             if (iframe.src.includes("?autoplay=1")) {
